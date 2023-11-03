@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<notRavCard>הכרטיס אינו כרטיס רב קארד</notRavCard>
+	<noProductError>no product</noProductError>
+	<inventoryError>inventory full</inventoryError>
+	<unknownError>שגיאת התקשרות אנא נסו שנית</unknownError>
+	<captchaError>מספר קוד אישור שגוי</captchaError>
+	<badCard>מספר הרב-קארד שהוכנס  אינו תקין</badCard>
+	<nameError>נא להכניס שם ושם משפחה</nameError>
+	<addressError>נא להכניס  הכתובת</addressError>
+	<phoneError>נא להכניס מספר טלפון</phoneError>
+	<emailError>נא להכניס  כתובת מייל מלאה</emailError>
+	<creditError>כרטיס  הרב-קארד אינו מכיל כסף</creditError>
+	<noConnectionError>no connection</noConnectionError>
+	<noUserError>no user</noUserError>
+</data>

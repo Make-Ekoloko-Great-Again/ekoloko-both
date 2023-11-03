@@ -1,0 +1,47 @@
+<data>
+  <main_version>9</main_version>
+  <zones version="2">
+    <zone id="1" version="1"/>
+  </zones>
+  <rooms version="1">
+    <room id="101" version="1"/>
+    <room id="109" version="1"/>
+    <room id="115" version="1"/>
+  </rooms>
+  <items_images version="0">
+    <item id="1" version="0"/>
+  </items_images>
+  <single_player_games version="0">
+    <game id="1" version="0"/>
+  </single_player_games>
+  <one_on_one_games version="0">
+    <game id="107" version="1"/>
+    <game id="111" version="1"/>
+    <game id="216" version="1"/>
+    <game id="217" version="1"/>
+  </one_on_one_games>
+  <animal_games version="0">
+    <game id="1" version="0"/>
+  </animal_games>
+  <in_world_games>0</in_world_games>    
+  <house>2</house>
+  <popups>0</popups>
+  <preloaders>1</preloaders>  
+  <random_events>3</random_events>
+  <quest_images>6</quest_images>
+  <map>0</map>
+  <animals>1</animals>
+  <npcs>2</npcs>
+  <sound>0</sound>
+  <text>16</text>
+  <help_popups>0</help_popups>
+  <premium_clip_version>0</premium_clip_version>
+  <login>5</login>
+  <community_event>1</community_event>
+  <emoticons>0</emoticons>
+  <recycle_bins>0</recycle_bins>
+  <recycle_items>0</recycle_items>
+  <security_form>0</security_form>
+  <cards>6</cards>
+  <credits_store>5</credits_store>
+</data>

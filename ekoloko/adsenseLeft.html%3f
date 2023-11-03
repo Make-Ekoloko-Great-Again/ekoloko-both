@@ -1,0 +1,85 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="KeyWords" content=" Virtual,m2,tweens, world, virtual world, green, games, game, flash, recycling, rrr ,RRR, community, mmo ,mmo games, ekoloko, educational, fun, adventures, quests, safe, under 13, young, tweens, avatar, toys, values, עולם וירטואלי, עולם, וירטואלי, ירוק, ילדים, משחקים, משחקים לילדים, אווטאר, נדירים, פלאש, מחזור, מיחזור, איכותי,צעצועים,חינוכי,כיף,הרפתקה,משימות,קווסטים,חברים,בטוח לילדים,עד גיל 13,מתחת גיל 13,צעירים,קטנים,צעצועים,קהילה אקולוקו, משחק ">
+
+<link href="website/iw/ekoloko.css" rel="stylesheet" type="text/css">
+</head>
+
+<body bgcolor="#AAD93D" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" style="background-image:none" onLoad="">
+
+<title>ekoloko.com</title>
+
+
+<table id="adBanners" border="0" cellpadding="0" cellspacing="0"  align="right">
+  <tr>
+    <td align="right" width="160px">
+      <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+      <!-- 160X600 -->
+      <ins class="adsbygoogle"
+           style="display:inline-block;width:160px;height:600px"
+           data-ad-client="ca-pub-5667630990546164"
+           data-ad-slot="8514438333"></ins>
+      <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </td>     
+  </tr>
+</table>
+ 
+<script type="text/javascript">
+
+  function getParameter ( parameterName ) {
+    var queryString = window.location.search
+    var parameterName = parameterName + "=";
+    if ( queryString.length > 0 ) {
+      begin = queryString.indexOf ( parameterName );
+      if ( begin != -1 ) {
+        begin += parameterName.length;
+        end = queryString.indexOf ( "&" , begin );
+        if ( end == -1 ) {
+          end = queryString.length
+        }
+      return unescape ( queryString.substring ( begin, end ) );
+      }
+      return "null";
+    }
+  }
+
+  var lang = getParameter('language');
+  if (!lang || lang == "null") lang = "iw"; 
+
+  var languages = ["iw", "en", "fr", "uk", "us"];
+
+  function showTitle(language) {   
+    for (var langIndex in languages) {
+      var currLang = languages[langIndex];
+      var element = document.getElementById(currLang);
+      if(element != undefined) {
+        if(currLang == language) {
+  		    element.style.visibility = 'visible'; 
+  		  } else {
+    	    element.style.visibility = 'hidden'; 
+        }
+      }
+    }
+  }
+  
+  function openPioneerStorePopup() {
+    var open_link = window.open('','_blank');
+	  open_link.location='website/'+lang+'/Pioneers_Become.html';
+  }
+ 
+  var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");  
+  document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E")); 
+
+  try{ 
+    	var pageTracker = _gat._getTracker("UA-4992646-7");
+    	pageTracker._setDomainName(".ekoloko.com");
+    	pageTracker._trackPageview();
+    	_vtq = _gat._createTracker('UA-4992646-7', "__vtq");
+  } catch(err) {}
+</script>
+
+</body>
+</html>

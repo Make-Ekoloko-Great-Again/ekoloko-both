@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+	
+<pageFlipper>
+
+	<settings startPage="10" followSpeed="7" flipSpeed="5" pageFolder="../common/newspaper/pages/new_book/" overCornerSize="70" clickCornerSize="50" flipSound="PageFlipSound" scaleToFit="true" loadOnDemand="true" shadowDepth="50" backColor="0xffffff" displayOnLoad="true" numbering="none" pageOrder="last to first"/>
+
+	<page>cover.jpg</page>
+	
+	<page>p0.jpg</page>
+	<page>p1.jpg</page>
+	<page>p2.jpg</page>
+	<page>p3.jpg</page>
+	<page>p4.jpg</page>
+	<page>p5.jpg</page>
+	<page>p6.jpg</page>
+	<page>p7.jpg</page>
+	
+	<page>back.jpg</page>
+
+</pageFlipper>

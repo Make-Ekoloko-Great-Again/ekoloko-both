@@ -1,0 +1,839 @@
+﻿<html>
+<head>
+<title>ekoloko.com</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script language="javascript" type="text/javascript">
+function getParameter ( parameterName ) {
+  var queryString = window.top.location.search
+  // Add "=" to the parameter name (i.e. parameterName=value)
+  var parameterName = parameterName + "=";
+  if ( queryString.length > 0 ) {
+    // Find the beginning of the string
+    begin = queryString.indexOf ( parameterName );
+    // If the parameter name is not found, skip it, otherwise return the value
+    if ( begin != -1 ) {
+      // Add the length (integer) to the beginning
+      begin += parameterName.length;
+      // Multiple parameters are separated by the "&" sign
+      end = queryString.indexOf ( "&" , begin );
+      if ( end == -1 ) {
+        end = queryString.length
+      }
+    // Return the string
+    return unescape ( queryString.substring ( begin, end ) );
+    }
+    // Return "null" if no parameter has been found
+    return "null";
+  }
+}
+var menuSwf = "subPage_menu?page=4&language=fr"//+getParameter('language');
+var sideMenuSwf = "sideMenu_help?page=2&language=fr"//+getParameter('language');
+
+function popUp(URL) {
+	window.open(URL, 'ekoloko', 'toolbar=0,scrollbars=1,location=0,statusbar=0,menubar=0,resizable=0,width=960,height=800')
+}
+</script>
+
+<script src="AC_RunActiveContent.js" type="text/javascript"></script>
+<link href="ekoloko.css" rel="stylesheet" type="text/css">
+</head>
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<a name="top"></a>
+<table width="1200" height="601" border="0" align="center" cellpadding="0" cellspacing="0" id="Table_01">
+<tr>
+		<td>
+	<img src="../common/images/header_left.jpg" width="93" height="154" alt=""></td>
+        <td colspan="3">
+        <script language="javascript">
+    	if (AC_FL_RunContent == 0) {
+    		alert("This page requires AC_RunActiveContent.js.");
+    	} else {
+    		AC_FL_RunContent(
+    			'codebase', 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,124,0',
+    			'width', '960',
+    			'height', '154',
+    			'src', menuSwf,
+    			'quality', 'high',
+    			'pluginspage', 'http://www.macromedia.com/go/getflashplayer',
+    			'align', 'middle',
+    			'play', 'true',
+    			'loop', 'true',
+    			'scale', 'showall',
+    			'wmode', 'gpu',
+    			'devicefont', 'false',
+    			'id', 'Menu',
+    			'bgcolor', '#abd93f',
+    			'name', 'Menu',
+    			'menu', 'true',
+    			'allowFullScreen', 'true',
+    			'allowScriptAccess','sameDomain',
+    			'movie', menuSwf,
+    			'salign', ''
+    			); //end AC code
+    	}
+      </script>
+    </td>
+	<td>
+	<img src="../common/images/header_right.jpg" width="147" height="154" alt=""></td>
+  </tr>
+	<tr>
+	  <td colspan="2" valign="top" style="background-repeat:no-repeat">
+	  <img src="../common/images/back_left.jpg" alt="" width="143" height="447"></td>
+  <td valign="top" background="../common/images/tileable.jpg">
+  <div style="background-image:url(../common/images/main.jpg); background-repeat:no-repeat; height:auto;">
+            <table width="810" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="230" valign="top">
+                    <div style="margin-left:10px; height:447;">
+                       <script language="javascript">
+							if (AC_FL_RunContent == 0) {
+								alert("This page requires AC_RunActiveContent.js.");
+							} else {
+								AC_FL_RunContent(
+									'codebase', 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,124,0',
+									'width', '180',
+									'height', '410',
+									'src', sideMenuSwf,
+									'quality', 'high',
+									'pluginspage', 'http://www.macromedia.com/go/getflashplayer',
+									'align', 'middle',
+									'play', 'true',
+									'loop', 'true',
+									'scale', 'showall',
+									'wmode', 'transparent',
+									'devicefont', 'false',
+									'id', 'Menu',
+									'bgcolor', '#ffffff',
+									'name', 'Menu',
+									'menu', 'true',
+									'allowFullScreen', 'true',
+									'allowScriptAccess','sameDomain',
+									'movie', sideMenuSwf,
+									'salign', ''
+									); //end AC code
+							}
+						  </script>
+                  </div>                </td>
+                <td align="left" valign="top">
+				<p><span class="Title">Foire Aux Questions</span><a href="javascript:popUp('../common/forms/generalForm.html?language=fr');"><img src="Question-libre.png" border="0" align="absmiddle" style="float:right"></a>
+                  <br>
+                  <br>
+                  <span class="FAQTitle">Quêtes, jeux et activités</span>
+                  <ul>
+				   <li><a href="#a1" class="faqQuestions">Que dois-je faire dans ekoloko ? </a></li>
+				   <li><a href="#a1.1" class="faqQuestions">Qu'est-ce que le serveur d'orientation de HC?</a></li>
+			       <li><a href="#a2" class="faqQuestions">Comment est-ce que je peux progresser dans ekoloko ?</a></li>
+			       <li><a href="#a3" class="faqQuestions">On ne me propose pas de quêtes : que dois-je faire ?</a></li>
+			       <li><a href="#a4" class="faqQuestions">Où puis-je trouver des jeux ?</a></li>
+                   <li><a href="#a5" class="faqQuestions">Que sont les jeux en 1 contre 1 ?</a></li>
+                   <li><a href="#a5.1" class="faqQuestions">Quelles significations ont les différents icônes figurant dans mon menu personnel <img src="../common/images/handIcon.png" alt="" width="26" height="25" border="0" align="absmiddle"> ?</a></li>
+                   <li><a href="#a6" class="faqQuestions">Que sont les Points de Leader et comment les obtient-on ?</a></li>
+                   <li><a href="#a6.1" class="faqQuestions">Quelle est la signification de l'icône représentant un Badge de Pionnier <img src="../common/images/pioneerPointsIcon.png" alt="" width="25" height="26" border="0" align="absmiddle"> transparent dans mon menu personnel ?</a></li>
+                   <li><a href="#a6.2" class="faqQuestions">Quelle est la signification de l'icône en forme de feuille de papier <img src="../common/images/generationIcon.png" alt="" width="26" height="25" border="0" align="absmiddle"> dans mon menu personnel ?</a></li>
+                   <li><a href="#a7" class="faqQuestions">Qu'est-ce qu'une Action Communautaire, et comment puis-je y participer ?</a></li>
+                   <li><a href="#a8" class="faqQuestions">Comment fait-on pour acheter des articles dans les boutiques ?</a></li>
+                   <li><a href="#a9" class="faqQuestions"> J'ai acheté un vêtement et je ne peux pas le porter. Pourquoi ?</a></li>
+                   <li><a href="#a10" class="faqQuestions">J'ai vu des enfants qui donnaient des cadeaux sur ekoloko. Comment puis-je le faire ?</a></li>
+                   <li><a href="#a11" class="faqQuestions">Qu'est-ce que la zone d'échange ?</a></li>
+                   <li><a href="#a11.1" class="faqQuestions">J'ai un objet que je ne peux ni échanger ni offrir en cadeau. Pourquoi cela?</a></li>
+                   <li><a href="#a11.2" class="faqQuestions">Que signifie la petite montre <img src="../common/images/clockIcon.png" alt="" width="25" height="26" border="0" align="absmiddle"> figurant sur certains objets dans ekoloko?</a></li>
+                   <li><a href="#a12" class="faqQuestions">Comment dois-je faire pour jouer aux fléchettes au bar de Jenny ou au café de Chocolat Jim ?</a></li>
+                   <li><a href="#a13" class="faqQuestions">Comment puis-je gagner un casque spatial ?</a></li>
+                   <li><a href="#a14" class="faqQuestions">Comment jouer à Koko Hoops pour recycler les déchets?</a></li>
+                  </ul>
+				  <span class="FAQTitle">Comment puis-je obtenir de l'aide ?</span>
+			      <ul>
+				   <li><a href="#b1" class="faqQuestions">Il m'arrive de me perdre dans ekoloko. Que puis-je faire ?</a></li>
+			       <li><a href="#b2" class="faqQuestions">Comment puis-je contacter ekoloko ?</a></li>
+                  </ul>
+				  <span class="FAQTitle">Pionniers ekoloko</span>
+				   <ul>
+				   <li><a href="#c1" class="faqQuestions">Qu'est-ce qu'un pionnier ?</a></li>
+			       <li><a href="#c2" class="faqQuestions">Comment puis-je obtenir un Badge de Pionnier et une Épinglette de Pilote ?</a></li>
+			       <li><a href="#c3" class="faqQuestions">Comment puis-je payer le forfait Pionnier ?</a></li>
+			       <li><a href="#c3.1" class="faqQuestions">Pourquoi mes Points Pio <img src="../common/images/pioneerPointsIcon.png" alt="" width="25" height="26" border="0" align="absmiddle"></span> ont-ils disparu ?</a></li>
+			       <li><a href="#c4" class="faqQuestions">Mes parents ne veulent pas que je paie le forfait Pionnier pour être pionnier. Que puis-je faire ?</a></li>
+			       <li><a href="#c5" class="faqQuestions">Qu'est-ce qu'un Eko-Code ?</a></li>
+                  </ul>
+			     <span class="FAQTitle">Adopter un petit</span>
+				   <ul>
+				   <li><a href="#d1" class="faqQuestions">Dois-je être un pionnier pour adopter un petit ?</a></li>
+			       <li><a href="#d2" class="faqQuestions">Où, et comment puis-je adopter un petit ?</a></li>
+			       <li><a href="#d3" class="faqQuestions">Comment dois-je m'occuper de mon petit ?</a></li>
+			       <li><a href="#d4" class="faqQuestions">Est-ce que je garderai mon petit définitivement ?</a></li>
+			       <li><a href="#d5" class="faqQuestions">Mon petit a disparu. Qu'est-ce qui s'est passé ?</a></li>
+			       <li><a href="#d6" class="faqQuestions">Puis-je rendre mon petit et en avoir un nouveau ?</a></li>
+			       <li><a href="#d7" class="faqQuestions">Pourquoi ne puis-je pas adopter le petit d'un grand animal ?</a></li>
+                  </ul>
+				  <span class="FAQTitle">Protéger ton avatar</span>
+				   <ul>
+				   <li><a href="#e1" class="faqQuestions">Comment puis-je changer de mot de passe ?</a></li>
+			       <li><a href="#e2" class="faqQuestions">J'ai tapé une mauvaise adresse e-mail et je voudrais la changer.</a></li>
+			       <li><a href="#e3" class="faqQuestions">Pourquoi dois-je avoir un mot de passe compliqué ?</a></li>
+			       <li><a href="#e4" class="faqQuestions">Est-ce que je peux communiquer mon mot de passe à un responsable ekoloko ?</a></li>
+			       <li><a href="#e5" class="faqQuestions">Comment puis-je protéger mon mot de passe ?</a></li>
+			       <li><a href="#e6" class="faqQuestions">Méfie-toi des tricheurs sur ekoloko :</a></li>
+			       <li><a href="#e7" class="faqQuestions">Comment reconnaît-on un responsable dans ekoloko ?</a></li>
+                  </ul>
+				  <span class="FAQTitle">Rangers ekoloko</span>
+				   <ul>
+				   <li><a href="#f1" class="faqQuestions">Qui sont les Rangers d'ekoloko ?</a></li>
+			       <li><a href="#f2" class="faqQuestions">Je suis déjà un ranger, mais je veux devenir un ranger de Niveau 2. Que dois-je faire ?</a></li>
+                  </ul>
+				  <span class="FAQTitle">Règlement</span>
+				   <ul>
+				   <li><a href="#g1" class="faqQuestions">Qu'arrive-t-il aux ekos qui enfreignent les règles ?</a></li>
+			       <li><a href="#g2" class="faqQuestions">Si je vous envoie un rapport sur un Eko qui s'est mal comporté, qu'allez-vous en faire ?</a></li>
+			       <li><a href="#g3" class="faqQuestions">Puis-je discuter en privé avec un ami ?</a></li>
+			       <li><a href="#g4" class="faqQuestions">Combien de temps puis-je passer sur ekoloko chaque jour ?</a></li>
+                  </ul>
+             	 <br>
+					 
+					<p><span class="FAQTitle"><a name="a1"></a>Que dois-je faire dans ekoloko ?</span><br>
+                    <span class="BodyText">Il y a plein de choses à faire dans ekoloko ! Par exemple, tu peux accomplir des quêtes en cliquant sur les habitants d'ekoloko qui ont un point d'interrogation au-dessus de la tête. Chaque quête accomplie te vaut des Points d'Activité et des Kokos (la monnaie ekolokienne). Cela te permettra de passer aux niveaux supérieurs et d'améliorer ton Eko (ton personnage sur ekoloko). Tu peux également te faire des amis, discuter avec eux, jouer à des jeux seul ou à 1 contre 1, et acheter des objets et des vêtements qui rendront ton Eko unique. Pour savoir en détail tout ce que tu peux faire sur ekoloko, nous te conseillons de cliquer sur le grand point d'interrogation en haut à droite de l'écran, qui te permet d'accéder au  didacticiel.					</span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Retour au haut de la page.</a>
+                    <br><br>
+                    </p>
+                  	<p align="center"><img src="../common/images/strip_1.jpg" class="images"><br><br></p>
+					
+					<p><span class="FAQTitle"><a name="a1.1"></span><br>
+                    <span class="BodyText">Il est particulièrement recommandé de choisir le  serveur 12 (Serveur d'Orientation intitulé HC). Ce serveur est à votre diposition pour vous aider lors de vos premiers pas sur ekoloko. Vous recevrez des trucs et astuces, participerez à des activités amusantes en compagnie des modérateurs ekoloko et rencontrerez de nombreux Eko Rangers (*) qui connaissent bien ekoloko et qui sont là pour vous aider.
+					</span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Retour au haut de la page.</a>
+                    <br><br>
+                    </p>
+                  	<p align="center"><img src="../common/images/strip_2.jpg" class="images"><br><br></p>
+					
+				  <p><span class="FAQTitle"><a name="a2"></a>Comment est-ce que je peux progresser dans ekoloko ?</span><br>
+                    <span class="BodyText">La meilleure façon d'avancer dans ekoloko est d'accomplir des quêtes et de participer à des jeux. Les quêtes sont proposées par les habitants de la planète. Lorsqu'un personnage a un point d'interrogation au-dessus de la tête, cela signifie qu'il a une nouvelle quête pour toi. Clique sur le personnage, reçois les quêtes, accomplis-les et reviens pour recevoir tes récompenses. Si tu as accompli toutes les quêtes proposées mais n'es toujours pas passé au niveau supérieur, va voir dans ton menu personnel combien de Points d'Activité il te manque, et gagne-les en jouant à des jeux.  Chaque jeu auquel tu participes te vaut des Points d'Activité.					</span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Retour au haut de la page.</a>
+                    <br><br>
+                    </p>
+                  	<p align="center"><img src="../common/images/strip_3.jpg" class="images"><br><br></p>
+					
+					<p><span class="FAQTitle"><a name="a3"></a>On ne me propose pas de quêtes : que dois-je faire ?</span><br>
+                    <span class="BodyText">Clique d'abord sur le bouton des quêtes. Les quêtes qui peuvent t'être proposées apparaissent dans l'onglet de gauche. Clique sur chacune d'elles pour savoir quel personnage peut te les confier. Dans le dossier du milieu, tu trouveras les quêtes qui te restent à accomplir. Que dois-tu faire si les deux dossiers sont vides ? Participer à des jeux et gagner suffisamment de Points d'Activité pour pouvoir avancer au prochain niveau !  Lorsque tu changeras de niveau, plein d'autres quêtes te seront proposées.					</span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Retour au haut de la page.</a>
+                    <br><br>
+                    </p>
+                  	<p align="center"><img src="../common/images/strip_4.jpg" class="images"><br><br></p>
+					
+					<p><span class="FAQTitle"><a name="a4"></a>Où puis-je trouver des jeux ?</span><br>
+                    <span class="BodyText">Il y a trois types de jeux dans ekoloko : les jeux à 1 contre 1, les jeux d'extérieur auxquels tu peux jouer dans le décor de la planète (koko hoops, basket-ball, etc.), et les jeux individuels proposés par les habitants d'ekoloko et accessibles en accomplissant des quêtes. Certains jeux sont disponibles dès le niveau 1 (avec Heathcliff et le capitaine Dolphinfin notamment), et d'autres te seront proposés lorsque tu avanceras dans le jeu. Tu pourras jouer à tout moment aux jeux auxquels tu as gagné le droit de jouer en allant trouver l'habitant d'ekoloko grâce auquel tu as obtenu le jeu.
+                    </span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Retour au haut de la page.</a>
+                    <br><br>
+                    </p>
+                  	<p align="center"><img src="../common/images/strip_5.jpg" class="images"><br><br></p>
+					
+					<p><span class="FAQTitle"><a name="a5"></a>Que sont les jeux à 1 contre 1 ?</span><br>
+                    <span class="BodyText">Les jeux à 1 contre 1 sont les jeux auxquels tu peux jouer contre tes amis. On obtient des jeux à 1 contre 1 en accomplissant des quêtes. Le premier de ces jeux, “Bongo”, est disponible au niveau 4. Lorsque tu obtiens un jeu à 1 contre 1, clique sur l'ami contre qui tu veux jouer puis clique sur l'icône des jeux. Une invitation à jouer apparaîtra dans le coin gauche de l'écran. Si tu n'as toujours pas gagné de jeu, tu dois attendre une invitation.					</span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Retour au haut de la page.</a>
+                    <br><br>
+                    </p>
+                  	<p align="center"><img src="../common/images/strip_6.jpg" class="images"><br><br></p>
+					
+					<p><span class="FAQTitle"><a name="a5.1"></a>Quelles significations ont les différents icônes figurant dans mon menu personnel <img src="../common/images/handIcon.png" alt="" width="26" height="25" align="absmiddle"> ?</span><br>
+                    <span class="BodyText">Toutes tes statistiques personnelles figurent dans ton menu personnel: ton Niveau <img src="../common/images/levelIcon.png" alt="" width="26" height="25" align="absmiddle">, ta Génération ekoloko <img src="../common/images/generationIcon.png" alt="" width="26" height="25" border="0" align="absmiddle">, tes Points de Leader <img src="../common/images/leaderIcon.png" alt="" width="26" height="25" border="0" align="absmiddle"> et tes Points Pio <img src="../common/images/pioneerPointsIcon.png" alt="" width="25" height="26" border="0" align="absmiddle">.
+					<br/>
+					<br/>Niveau <img src="../common/images/levelIcon.png" alt="" width="26" height="25" align="absmiddle"> : indique ton niveau actuel. Si tu veux avancer et monter de niveau tu dois accomplir des quêtes et accumuler ainsi des points d'activité. Plus tu atteins des niveaux élevés plus le nombre d'activités, d'objets et d'accessoires qui te sont accessibles est grand.
+					<br/><br/>
+					Points de Leadership <img src="../common/images/leaderIcon.png" alt="" width="26" height="25" border="0" align="absmiddle"> : indique le nombre de points de leadership que tu as accumulés. Les points de leadership peuvent t'être attribués par tes amis Ekos à l'occasion d'un comportement amical ou de leader.
+					<br/><br/>
+					Génération ekoloko <img src="../common/images/generationIcon.png" alt="" width="26" height="25" border="0" align="absmiddle"> : indique ton ancienneté dans ekoloko. Chaque jour de connexion à ekoloko te donne droit à un point d'ancienneté. Plus ton niveau d'ancienneté est élevé plus les possibilités qui te sont offertes sont amusantes.
+					<br/><br/>Les Points Pio <img src="../common/images/pioneerPointsIcon.png" alt="" width="25" height="26" border="0" align="absmiddle">: les Ekos qui rejoignent les Pionniers reçoivent des Points Pio qui leur permettent de faire certaines choses dans ekoloko. Les Points Pio s'accumulent automatiquement aussi longtemps que ton forfait Pionnier est actif. Lorsque ton forfait expire, tu bénéficies de quelques jour de grâce pour le renouveler avant que tes Points Pio ne disparaissent.                    </span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Retour au haut de la page.</a>
+                    <br><br>
+                    </p>
+               	  <p align="center"><img src="../common/images/strip_7.jpg" class="images"><br><br></p>
+					
+					<p><span class="FAQTitle"><a name="a6"></a>Que sont les Points de Leader et comment les obtient-on ?</span><br>
+                    <span class="BodyText">Les <strong>Points de Leader</strong> sont des points qui te sont accordés par tes amis dans ekoloko. Après le niveau 2, chaque Eko a la possibilité d'accorder et de recevoir des <strong>Points de Leader</strong>. Les Ekos ne peuvent accorder ou retirer un <strong>Point de Leader</strong> que tous les 48 heures seulement. Les Pionniers peuvent le faire toutes les 24 heures. Les Ekos qui ont beaucoup de <strong>Points de Leader</strong> ont la possibilité d'avoir des vêtements et des objets cools, et auront par la suite d'autres privilèges, telles que celui de devenir chef d'équipe.					</span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Retour au haut de la page.</a>
+                    <br><br>
+                    </p>
+                  	<p align="center"><img src="../common/images/strip_8.jpg" class="images"><br><br></p>
+					
+					<p><span class="FAQTitle"><a name="a6.1"></a>Quelle est la signification de l'icône représentant un Badge de Pionnier <img src="../common/images/pioneerPointsIcon.png" alt="" width="25" height="26" border="0" align="absmiddle"> transparent dans mon menu personnel ?</span><br>
+                    <span class="BodyText">Le Badge de Pionnier Transparent <img src="../common/images/pioneerPointsIcon.png" alt="" width="25" height="26" border="0" align="absmiddle"> figurant dans ton menu personnel indique le nombre de points Pio (Points de Pionnier) que tu as accumulé à ce stade. Plus de Points Pio te permet d'utiliser plus d'objets et de porter plus d'habits. Les Points Pio s'accumulent automatiquement  aussi longtemps que ton forfait est actif. Quand ton forfait expire, tu bénéficies de quelques jours de grâce avant que tes Points Pio ne disparaissent. Ne t'en fais pas, nous ne manquerons pas de te prévenir quand le moment de renouveler ton forfait sera arrivé.                    </span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Retour au haut de la page.</a>
+                    <br><br>
+                    </p>
+               	  <p align="center"><img src="../common/images/strip_9.jpg" class="images"><br><br></p>
+					
+					<p><span class="FAQTitle"><a name="a6.2"></a>Quelle est la signification de l'icône en forme de feuille de papier <img src="../common/images/generationIcon.png" alt="" width="26" height="25" align="absmiddle"> dans mon menu personnel ?</span><br>
+                  <span class="BodyText">L'icône de la feuille de papier <img src="../common/images/generationIcon.png" alt="" width="26" height="25" align="absmiddle"> indique ta génération dans ekoloko. Les générations élevées t'ouvrent de nouvelles options dans ekoloko. Tu pourras porter des habits plus sympas, utiliser de meilleurs accessoires, et même emprunter des passages secrets. Chaque jour de connexion est compté, et tous les quelques jours tu passeras à la génération suivante et recevra un nouveau titre.
+					<br/><br/>
+                    <table width="400" border="1" cellpadding="2" cellspacing="0">
+                      <tr>
+                        <td width="50" align="center" bgcolor="#DBDCCD" class="BodyText"><strong>Génération ekoloko</strong></td>
+                        <td align="center" bgcolor="#DBDCCD" class="BodyText"><strong>Titre</strong></td>
+                        <td width="150" align="center" bgcolor="#DBDCCD" class="BodyText"><strong>Nombre de jours à compléter par génération</strong></td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>1</strong></td>
+                        <td align="center" class="BodyText">Jungle Newbie</td>
+                        <td width="150" align="center" class="BodyText">1</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>2</strong></td>
+                        <td align="center" class="BodyText">Eko Newbie</td>
+                        <td width="150" align="center" class="BodyText">5</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>3</strong></td>
+                        <td align="center" class="BodyText">Luna Newbie</td>
+                        <td width="150" align="center" class="BodyText">9</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>4</strong></td>
+                        <td align="center" class="BodyText">Time Newbie</td>
+                        <td width="150" align="center" class="BodyText">10</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>5</strong></td>
+                        <td align="center" class="BodyText">Jungle Kid</td>
+                        <td width="150" align="center" class="BodyText">15</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>6</strong></td>
+                        <td align="center" class="BodyText">Eko Kid</td>
+                        <td width="150" align="center" class="BodyText">15</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>7</strong></td>
+                        <td align="center" class="BodyText">Luna Kid</td>
+                        <td width="150" align="center" class="BodyText">15</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>8</strong></td>
+                        <td align="center" class="BodyText">Time Kid</td>
+                        <td width="150" align="center" class="BodyText">15</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>9</strong></td>
+                        <td align="center" class="BodyText">Jungle Strider</td>
+                        <td width="150" align="center" class="BodyText">15</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>10</strong></td>
+                        <td align="center" class="BodyText">Eko Strider</td>
+                        <td width="150" align="center" class="BodyText">15</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>11</strong></td>
+                        <td align="center" class="BodyText">Luna Strider</td>
+                        <td width="150" align="center" class="BodyText">15</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>12</strong></td>
+                        <td align="center" class="BodyText">Time Strider</td>
+                        <td width="150" align="center" class="BodyText">15</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>13</strong></td>
+                        <td align="center" class="BodyText">Jungle Jumper</td>
+                        <td width="150" align="center" class="BodyText">15</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>14</strong></td>
+                        <td align="center" class="BodyText">Eko Jumper</td>
+                        <td width="150" align="center" class="BodyText">15</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>15</strong></td>
+                        <td align="center" class="BodyText">Luna Jumper</td>
+                        <td width="150" align="center" class="BodyText">15</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>16</strong></td>
+                        <td align="center" class="BodyText">Time Jumper</td>
+                        <td width="150" align="center" class="BodyText">15</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>17</strong></td>
+                        <td align="center" class="BodyText">Jungle Ace</td>
+                        <td width="150" align="center" class="BodyText">15</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>18</strong></td>
+                        <td align="center" class="BodyText">Eko Ace</td>
+                        <td width="150" align="center" class="BodyText">15</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>19</strong></td>
+                        <td align="center" class="BodyText">Luna Ace</td>
+                        <td width="150" align="center" class="BodyText">15</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>20</strong></td>
+                        <td align="center" class="BodyText">Time Ace</td>
+                        <td width="150" align="center" class="BodyText">15</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>21</strong></td>
+                        <td align="center" class="BodyText">Jungle Master</td>
+                        <td width="150" align="center" class="BodyText">15</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>22</strong></td>
+                        <td align="center" class="BodyText">Eko Master</td>
+                        <td width="150" align="center" class="BodyText">15</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>23</strong></td>
+                        <td align="center" class="BodyText">Luna Master</td>
+                        <td width="150" align="center" class="BodyText">15</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>24</strong></td>
+                        <td align="center" class="BodyText">Time Master</td>
+                        <td width="150" align="center" class="BodyText">15</td>
+                      </tr>
+                    </table>
+				  </span>
+                  <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Retour au haut de la page.</a>
+                    <br><br>
+                    </p>
+                  	<p align="center"><img src="../common/images/strip_10.jpg" class="images"><br><br></p>
+					
+					<p><span class="FAQTitle"><a name="a7"></a>Qu'est-ce qu'une Action communautaire, et comment puis-je y participer ?</span><br>
+                    <span class="BodyText">Une action communautaire est une quête dans laquelle l'ensemble de la communauté ekolokienne a un objectif commun. Pour que cette quête soit accomplie, il est essentiel que chaque Eko de la communauté participe. Les actions communautaires ont souvent lieu sur ekoloko et durent environ deux semaines. Des prix uniques sont remis aux Ekos qui ont participé à la fin de chaque action communautaire réussie. Lorsqu'une action communautaire est en cours, un bouton avec un diamant s'affiche en haut à droite de l'écran.  Clique dessus, et tu pourras participer à l'action immédiatement. Les actions communautaires sont ouvertes à tous les Ekos, à chaque niveau, qu'ils soient Pionniers ou non. 
+                    </span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Retour au haut de la page.</a>
+                    <br><br>
+                    </p>
+                  	<p align="center"><img src="../common/images/strip_1.jpg" class="images"><br><br></p>
+					
+					<p><span class="FAQTitle"><a name="a8"></a>Comment fait-on pour acheter des articles dans les boutiques ?</span><br>
+                    <span class="BodyText">Il y a des boutiques un peu partout sur ekoloko : dans la jungle, dans le désert Eko Eko, sur Ekoluna et même dans la Vallée Lokozaurus. Pour pouvoir acheter et vendre des articles dans les boutiques, tu dois d'abord gagner des <strong>Kokos</strong> (la monnaie d'ekoloko) en accomplissant des quêtes et en participant à des jeux, trouver une boutique et cliquer sur l'objet qui brille à l'écran (une pile de vêtements, un siège de coiffeur, un comptoir, un dinosaure, ou même un panneau indicateur). Une fois que tu as cliqué sur l'article du magasin qui brille, un menu d'achat/vente simple à utiliser s'ouvre.                    </span>
+					<br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Retour au haut de la page.</a>
+                    <br><br>
+                    </p>
+                  	<p align="center"><img src="../common/images/strip_2.jpg" class="images"><br><br></p>
+					
+					<p><span class="FAQTitle"><a name="a9"></a>J'ai acheté un vêtement et je ne peux pas le porter. Pourquoi ?</span><a href="#a6.2" class="faqQuestions"></a><a href="#a6.2" class="faqQuestions"></a><br>
+                    <span class="BodyText">Certains des vêtements et accessoires proposés sur ekoloko sont réservés à certains niveaux <img src="../common/images/levelIcon.png" alt="" width="26" height="25" align="absmiddle">, certaines générations <img src="../common/images/generationIcon.png" alt="" width="26" height="25" align="absmiddle"> et nécessitent un nombre minimum de P<strong>oints de Leader</strong> <img src="../common/images/leaderIcon.png" alt="" width="26" height="25" border="0" align="absmiddle"> et de <strong>Points Pio</strong> <img src="../common/images/pioneerPointsIcon.png" alt="" width="25" height="26" border="0" align="absmiddle">. Si tu as acheté ou reçu un vêtement et que tu ne peux pas le porter, c'est que tu n'as sans doute pas encore atteint le bon niveau, ou que tu dois accumuler davantage de Points de Leader.                    </span>
+					<br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Retour au haut de la page.</a>
+                    <br><br>
+                    </p>
+               	  <p align="center"><img src="../common/images/strip_3.jpg" class="images"><br><br></p>
+					
+					<p><span class="FAQTitle"><a name="a10"></a>J'ai vu des enfants qui donnaient des cadeaux sur ekoloko. Comment puis-je le faire ?</span><br>
+                    <span class="BodyText">Pour faire des cadeaux sur ekoloko, tu dois ouvrir le menu des objets personnels, choisir un objet (vêtement, accessoire, ou objet de recyclage) et cliquer dessus tout en maintenant la touche CTRL enfoncée sur ton clavier. Cela t'ouvrira un menu de cadeaux simple à utiliser. Sélectionne les objets que tu veux emballer, confirme, et ton cadeau se retrouve dans le jeu.
+                    </span>
+					<br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Retour au haut de la page.</a>
+                    <br><br>
+                    </p>
+                  	<p align="center"><img src="../common/images/strip_4.jpg" class="images"><br><br></p>
+                  	<p><span class="FAQTitle"><a name="a11"></a>Qu'est-ce que la zone d'échange ?</span><br>
+                    <span class="BodyText">La générosité et la coopération sont des valeurs très importantes sur ekoloko. La meilleure façon de donner ou d'échanger un objet avec un(e) ami(e) est d'utiliser la zone d'échange. Tu peux inviter un(e) ami(e) dans la zone d'échange en cliquant sur son personnage, puis en cliquant sur le bouton  <img src="../common/images/tradeIcon.png" align="absmiddle">. Si ton ami(e) est intéressé(e) par un échange, il ou elle acceptera l'invitation et vous entrerez tous les deux dans la zone d'échange. Là, tu pourras cliquer sur les objets que tu souhaites donner et voir ce que ton ami(e) souhaite donner en échange. 
+N'oublie pas ! N'accepte l'échange que si tu es satisfait de ce qu'on t'offre en échange. L'échange n'aura lieu que si les deux parties cliquent sur le bouton d'approbation   <img src="../common/images/tradeIcon2.png" align="absmiddle">. Une fois que tu auras cliqué sur ce bouton, tu ne pourras plus ajouter ou retirer d'objets de la zone d'échange. Après la première approbation, il te sera demandé de confirmer la transaction. Regarde bien la zone d'échange. Si la transaction te convient, clique à nouveau sur le bouton d'approbation. Si cela ne te convient pas, annule la transaction et trouve un autre Eko avec qui faire un échange.					</span>                    
+					<br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Retour au haut de la page.</a>
+                    <br><br>
+                    </p>
+                  	<p align="center"><img src="../common/images/strip_5.jpg" class="images"><br><br></p>
+					
+					<p><span class="FAQTitle"><a name="a11.1"></a>J'ai un objet que je ne peux pas échanger ou offrir en cadeau. Pourquoi cela?</span><br>
+                    <span class="BodyText">Certains des objets dans ekoloko, et particulièrement les plus rares d'entre eux, sont personnels et ne peuvent pas être échangés.
+                    </span>                    
+					<br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Retour au haut de la page.</a>
+                    <br><br>
+                    </p>
+                  	<p align="center"><img src="../common/images/strip_6.jpg" class="images"><br><br></p>
+					
+					<p><span class="FAQTitle"><a name="a11.2"></a>Que signifie la petite montre <img src="../common/images/clockIcon.png" alt="" width="25" height="26" border="0" align="absmiddle"> figurant sur certains objets dans ekoloko ?</span><br>
+                    <span class="BodyText">Certains objets dans ekoloko sont marqués d'une Montre <img src="../common/images/clockIcon.png" alt="" width="25" height="26" border="0" align="absmiddle">. Cela signifie que tu peux les posséder pour une durée limitée seulement. La Montre fait apparaître un compte à rebours indiquant le temps  d'utilisation et de possession restant. Une fois le temps écoulé, l'objet disparaîtra de ton inventaire.                    </span>                    
+					<br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Retour au haut de la page.</a>
+                    <br><br>
+                    </p>
+               	  <p align="center"><img src="../common/images/strip_7.jpg" class="images"><br><br></p>
+					
+					<p><span class="FAQTitle"><a name="a12"></a>Comment dois-je faire pour jouer aux fléchettes au bar de Jenny ou au café de Chocolat Jim ?</span><br>
+                    <span class="BodyText">Pour jouer aux fléchettes, tu dois cliquer sur la cible placée sur le mur, foncer vers le rayon de lumière puis cliquer à nouveau sur la cible. Tu verras alors apparaître une plus grande image de la cible et un petit cercle près de la zone de la cible. Essaie d'attirer le cercle vers le centre de la cible, et clique pour lancer la fléchette.
+                    </span>
+					<br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Retour au haut de la page.</a>
+                    <br><br>
+                    </p>
+                  	<p align="center"><img src="../common/images/strip_8.jpg" class="images"><br><br></p>
+					
+					<p><span class="FAQTitle"><a name="a13"></a>Comment puis-je gagner un casque spatial ?</span><br>
+                    <span class="BodyText">Les casques spatiaux ne se trouvent pas dans les boutiques. Tu peux en gagner un en accomplissant la quête de la pression de gaz (pionniers uniquement) ou en accomplissant la série de quêtes du niveau 15.
+                    </span>
+					<br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Retour au haut de la page.</a>
+                    <br><br>
+                    </p>
+                  	<p align="center"><img src="../common/images/strip_9.jpg" class="images"><br><br></p>
+                    
+                    <p><span class="FAQTitle"><a name="a14"></a>Comment jouer à Koko Hoops pour recycler les déchets?</span><br>
+                    <span class="BodyText">Koko Hoops est un jeu pour recycler les déchets que tu as ramassés dans les poubelles.<br>
+<br>
+Pour jouer, c'est facile. Trouves une poubelle et clique dessus. Clique ensuite sur la coco qui apparaît. Clique ensuite sur les petites flèches vers le haut et vers le bas pour choisir le nombre de déchet que tu veux recycler.<br>
+<br>
+Une fois que tu as choisis combien de déchets tu veux recycler, clique sur la petite flèche verte.<br>
+<br>
+Une lumière apparaît sur le sol, mets toi vite dessus et clique sur la poubelle. Un cadran apparaît, tu dois cliquer quand le curseur est dans la zone verte pour tirer la coco dans la poubelle.<br>
+<br>
+Attention, chaque poubelle ne peut recevoir que certaines sortes de déchets (plastique, métal, papier, piles et verre). A toi de trouver la bonne poubelle pour recycler ce que tu as ramassé.
+                    </span>
+					<br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Retour au haut de la page.</a>
+                    <br><br>
+                    </p>
+                  	<p align="center"><img src="../common/images/strip_9.jpg" class="images"><br><br></p>
+					
+					<p><span class="FAQTitle"><a name="b1"></a>Il m'arrive de me perdre dans ekoloko. Que puis-je faire ?</span><br>
+                    <span class="BodyText">Il y a différentes sources d'aide sur ekoloko : 
+					
+					<ol>
+						<li>Le clip d'aide d'Heathcliff et la Foire aux Questions - pour y accéder, clique sur le point d'interrogation <img src="../common/images/helpIcon.png" alt="" width="25" height="26" border="0" align="absmiddle"> situé en haut à droite de l'écran. </li>
+						<li>Les Rangers d'ekoloko- si tu as un problème, va trouver un Ranger ekoloko (tu les reconnaîtras aux auréoles d'ange qu'ils ont au-dessus de la tête). Chaque ranger se fera un plaisir de t'aider. Ils sont là pour ça.</li>
+						<li>Les responsables communautaires d'ekoloko -des responsables communautaires d'ekoloko patrouillent en permanence le monde. Tu les reconnaîtras à l'étoile jaune qu'ils ont sous les pieds. Chaque responsable se fera un plaisir de t'aider.</li>
+					</ol>
+					</span>
+				  <br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Retour au haut de la page.</a>
+                    <br><br>
+                    </p>
+                  	<p align="center"><img src="../common/images/strip_10.jpg" class="images"><br><br></p>
+					
+					<p><span class="FAQTitle"><a name="b2"></a>Comment puis-je contacter ekoloko ?</span><br>
+                    <span class="BodyText">Il est possible de prendre contact avec ekoloko de façon suivante:
+</span><ol>
+						<li><span class="BodyText">Si tu es un pionnier et que tu as une question concernant ton forfait,  <a href="javascript:popUp('../common/forms/pioneersForm.html?language=fr');"><strong>clique ici</strong></a>.</span></li>
+			    <li><span class="BodyText">Si tu as un problème de sécurité ou concernant la confidentialité de tes données, <a href="javascript:popUp('../common/forms/911Form.html?language=fr');"><strong>clique ici</strong></a>.</span></li>
+					</ol>
+                    </span>
+					<br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Retour au haut de la page.</a>
+                    <br><br>
+                    </p>
+                  	<p align="center"><img src="../common/images/strip_1.jpg" class="images"><br><br></p>
+					
+					<p><span class="FAQTitle"><a name="c1"></a>Qu'est-ce qu'un pionnier ?</span><br>
+                    <span class="BodyText">Les Pionniers sont un groupe d'Ekos d'élite chargés de découvrir et de peupler de nouvelles régions, et de protéger ekoloko, son cadre et sa communauté.
+					<br/><br/>Pour les aider dans ce rôle important, les pionniers ont la possibilité :
+					<ul>
+						<li>de découvrir et peupler de nouvelles régions</li>
+						<li>de se téléporter dans différents écrans par l'intermédiaire de la carte</li>
+						<li>de devenir rangers sur ekoloko</li>
+						<li>d'acheter et porter les vêtements et les accessoires réservés aux pionniers</li>
+						<li>de participer aux activités exclusivement réservées aux pionniers</li>
+						<li>d'attribuer des <strong>Points de Leader</strong> toutes les 24 heures</li>
+						<li>de gagner et jouer à des jeux à 1 contre 1</li>
+						<li>le droit de faire partie des listes des plus grands leaders de tous les temps</li>
+					</ul>
+					Enfin, et surtout :<br/><br/>
+					<strong>Les pionniers peuvent adopter des petits qui ont été blessés ou séparés de leurs parents.</strong><br/><br/>
+					Pour devenir pionnier, tu devras :
+					<ul>
+						<li>payer le forfait Pionnier</li>
+						<li>signer le serment de pionnier</li>
+						<li>être prêt à découvrir, à explorer et à peupler de nouvelles régions d'ekoloko</li>
+						<li>vivre de nouveaux défis, quêtes et aventures passionnants</li>
+						<li>être fortement impliqué dans ekoloko et sa communauté</li>
+						<li>accomplir une série de quêtes conçues spécifiquement pour les pionniers</li>
+					</ul>
+                    </span>
+					<br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Retour au haut de la page.</a>
+                    <br><br>
+                    </p>
+                  	<p align="center"><img src="../common/images/strip_2.jpg" class="images"><br><br></p>
+					
+					<p><span class="FAQTitle"><a name="c2"></a>Comment puis-je obtenir un Badge de Pionnier et une Épinglette de Pilote ?</span><br>
+                    <span class="BodyText">Avant de pouvoir t'envoler dans l'espace, tu devras accomplir la quête initiale du pionnier, qui commence avec Celeste Joyride dans la navette spatiale Arc-en-ciel. Lors de cette quête, il te sera demandé d'exécuter différentes tâches, à l'issue desquelles tu décrocheras le Badge de Pionnier et l'Épinglette de Pilote. Attention ! La dernière tâche se déroule dans la salle secrète d'Adam Greenleaf, à laquelle tu ne pourras accéder qu'en te téléportant sur la carte. 
+                    </span>
+					<br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Retour au haut de la page.</a>
+                    <br><br>
+                    </p>
+                  	<p align="center"><img src="../common/images/strip_3.jpg" class="images"><br><br></p>
+					
+					<p><span class="FAQTitle"><a name="c3"></a>Comment puis-je payer le forfait Pionnier ?</span><br>
+                    <span class="BodyText">Pour payer le forfait <strong>Pionnier</strong> clique sur l'onglet Pionnier dans la page d'accueil, puis sur l'onglet <strong>Devenir Pionnier</strong>, ou entrer dans ekoloko et cliquer sur le <strong>bouton des paramètres du compte</strong> <img src="../common/images/toolsIcon.png" align="absmiddle"> dans le coin inférieur gauche de l'écran, puis choisir l'option "Boutique Pionnier", et acheter le Forfait Pionnier qui te convient le mieux.                    </span>
+					<br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Retour au haut de la page.</a>
+                    <br><br>
+                    </p>
+                  	<p align="center"><img src="../common/images/strip_4.jpg" class="images"><br><br></p>
+					
+					<p><span class="FAQTitle"><a name="c3.1"></a>Pourquoi mes Points Pio <img src="../common/images/pioneerPointsIcon.png" alt="" width="25" height="26" border="0" align="absmiddle"> ont-ils disparu ?</span><br>
+                    <span class="BodyText">Les Points Pio s'accumulent automatiquement aussi longtemps que mon forfait Pionnier est actif. Quand ton forfait expire, tu bénéficies de quelques jours de grâce pour pour le renouveler. Si tu décides de ne pas le renouveler pendant cette période de grâce, ters Points pio disparaîtront.
+                    </span>
+					<br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Retour au haut de la page.</a>
+                    <br><br>
+                    </p>
+               	  <p align="center"><img src="../common/images/strip_5.jpg" class="images"><br><br></p>
+					
+					<p><span class="FAQTitle"><a name="c4"></a>Mes parents ne veulent pas que je paie le forfait Pionnier pour être pionnier. Que puis-je faire ?</span><br>
+                    <span class="BodyText">Tu peux profiter d'ekoloko même sans être un pionnier. Certaines quêtes, certains jeux, et les discussions entre amis, sont gratuits et ouverts à tous. 
+                    </span>
+					<br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Retour au haut de la page.</a>
+                    <br><br>
+                    </p>
+                  	<p align="center"><img src="../common/images/strip_6.jpg" class="images"><br><br></p>
+					
+					<p><span class="FAQTitle"><a name="c5"></a>Qu'est-ce qu'un eko-Code ?</span><br>
+                    <span class="BodyText">Un Eko-Code est un code (à 12 chiffres) qui peut t'être remis ou envoyé par les membres de l'équipe ekoloko. En tapant le code dans la fenêtre prévue à cet effet sur la page de connexion (Activation de l'Eko-Code), tu recevras un prix. Ce peut être un accessoire pour ton Eko ou même quelques jours gratuits en tant que pionnier.
+                    </span>
+					<br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Retour au haut de la page.</a>
+                    <br><br>
+                    </p>
+                  	<p align="center"><img src="../common/images/strip_7.jpg" class="images"><br><br></p>
+					
+					<p><span class="FAQTitle"><a name="d1"></a>Dois-je être un pionnier pour adopter un petit ?</span><br>
+                    <span class="BodyText">Oui.
+                    </span>
+					<br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Retour au haut de la page.</a>
+                    <br><br>
+                    </p>
+                  	<p align="center"><img src="../common/images/strip_8.jpg" class="images"><br><br></p>
+					
+					<p><span class="FAQTitle"><a name="d2"></a>Où et comment puis-je adopter un petit ?</span><br>
+                    <span class="BodyText">Pour adopter un petit, tu dois cliquer sur le rhinocéros présent dans l'écran de Charles T-Pot ou du Dr Gezuntheit, ou cliquer sur le tas d'œufs dans l'écran du Volcan Lavabo dans la Vallée Lokozaurus.  
+                    </span>
+					<br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Retour au haut de la page.</a>
+                    <br><br>
+                    </p>
+                  	<p align="center"><img src="../common/images/strip_9.jpg" class="images"><br><br></p>
+					
+					<p><span class="FAQTitle"><a name="d3"></a>Comment dois-je m'occuper de mon petit ?</span><br>
+                    <span class="BodyText">Tous les petits ont des besoins : nourriture, hygiène et distractions. Ton petit t'informera de ses besoins par les icônes qui apparaissent au-dessus de sa tête. Clique sur le <strong>bouton du petit</strong> <img src="../common/images/animalIcon.png" width="27" height="25" align="absmiddle"> à gauche de la barre de discussion pour connaître les besoins de ton petit.                    </span>
+					<br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Retour au haut de la page.</a>
+                    <br><br>
+                    </p>
+               	  <p align="center"><img src="../common/images/strip_10.jpg" class="images"><br><br></p>
+					
+					<p><span class="FAQTitle"><a name="d4"></a>Est-ce que je garderai mon petit définitivement ?</span><br>
+                    <span class="BodyText">Non. Les pionniers qui montrent qu'ils sont dignes de s'occuper d'un petit ne les gardent que jusqu'à ce qu'ils soient relâchés dans la nature. Mais il y a une bonne nouvelle : si tu t'es déjà occupé d'un petit, tu pourras progresser et t'occuper du petit d'un plus gros animal.
+                    </span>
+					<br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Retour au haut de la page.</a>
+                    <br><br>
+                    </p>
+                  	<p align="center"><img src="../common/images/strip_1.jpg" class="images"><br><br></p>
+					
+					<p><span class="FAQTitle"><a name="d5"></a>Mon petit a disparu. Qu'est-ce qui s'est passé ?</span><br>
+                    <span class="BodyText">Ton petit peut avoir disparu pour 3 raisons :
+					<ol>
+						<li>il est devenu suffisamment grand pour être libéré dans la nature. Si c'est le cas, ton petit t'offrira un ballon en cadeau. </li>
+						<li>Ta période d'adhésion de pionnier a expiré. Si c'est le cas, ton petit t'attendra ailleurs jusqu'à ce que tu aies renouvelé ton forfait Pionnier.</li>
+						<li>Tu as accidentellement appuyé sur le bouton « maison » dans le menu de ton petit.  Ton petit réapparaîtra en rappuyant sur le même bouton.</li>
+					</ol>
+                    </span>
+					<br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Retour au haut de la page.</a>
+                    <br><br>
+                    </p>
+                  	<p align="center"><img src="../common/images/strip_2.jpg" class="images"><br><br></p>
+					
+					<p><span class="FAQTitle"><a name="d6"></a>Puis-je rendre mon petit et en avoir un nouveau ?</span><br>
+                    <span class="BodyText">Non. Chaque petit a besoin qu'on s'occupe de lui, et une fois que tu as accepté cette responsabilité, tu dois t'en acquitter jusqu'au bout.
+                    </span>
+					<br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Retour au haut de la page.</a>
+                    <br><br>
+                    </p>
+                  	<p align="center"><img src="../common/images/strip_3.jpg" class="images"><br><br></p>
+					
+					<p><span class="FAQTitle"><a name="d7"></a>Pourquoi ne puis-je pas adopter le petit d'un plus grand animal ?</span><br>
+                    <span class="BodyText">Tu dois gravir les échelons progressivement. Occupe-toi d'abord d'un petit animal, puis d'un animal de taille moyenne, et ensuite tu pourras prendre en charge un grand animal.
+                    </span>
+					<br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Retour au haut de la page.</a>
+                    <br><br>
+                    </p>
+                  	<p align="center"><img src="../common/images/strip_4.jpg" class="images"><br><br></p>
+					
+					<p><span class="FAQTitle"><a name="e1"></a>Comment puis-je changer de mot de passe ?</span><br>
+                    <span class="BodyText">Pour changer ton mot de passe ou d'autres informations importantes te concernant, clique sur l'icône des paramètres de compte en bas à gauche, sélectionne les informations à modifier et confirme les changements.
+                    </span>
+					<br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Retour au haut de la page.</a>
+                    <br><br>
+                    </p>
+                  	<p align="center"><img src="../common/images/strip_5.jpg" class="images"><br><br></p>
+					
+					<p><span class="FAQTitle"><a name="e2"></a>J'ai tapé une mauvaise adresse e-mail et je voudrais la changer.</span><br>
+                    <span class="BodyText">Pour mettre à jour ton adresse e-mail, clique sur le bouton des paramètres utilisateur en bas à gauche, fais les changements nécessaires puis valide-les.<br/>
+					Attention ! Il est très important que tu tapes ton adresse e-mail correctement quand tu t'inscris sur ekoloko. Sinon, nous ne pourrons pas t'envoyer les Eko-Codes qui te permettent de récupérer des objets sympas et des surprises. Tu ne pourras pas non plus recevoir les lettres d'information et d'autres annonces importantes de notre part, ni récupérer ton mot de passe si tu l'oublies.
+					</span>
+					<br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Retour au haut de la page.</a>
+                    <br><br>
+                    </p>
+                  	<p align="center"><img src="../common/images/strip_6.jpg" class="images"><br><br></p>
+					
+					<p><span class="FAQTitle"><a name="e3"></a>Pourquoi dois-je avoir un mot de passe compliqué ?</span><br>
+                    <span class="BodyText">Ton mot de passe est la seule chose qui empêche les autres d'utiliser ton personnage. Si quelqu'un devine ton mot de passe, il pourra accéder à ekoloko avec ton Eko, prendre tous ses objets et même te faire bannir.<br/>
+					Essaie de choisir un mot de passe difficile à deviner. N'inclus pas ton nom d'utilisateur dans ton mot de passe, et choisis un mélange de lettres et de chiffres.
+                    </span>
+					<br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Retour au haut de la page.</a>
+                    <br><br>
+                    </p>
+                  	<p align="center"><img src="../common/images/strip_7.jpg" class="images"><br><br></p>
+					
+					<p><span class="FAQTitle"><a name="e4"></a>Est-ce que je peux communiquer mon mot de passe à un responsable ekoloko ?</span><br>
+                    <span class="BodyText">NON ! Tu ne dois communiquer ton mot de passe à personne, en aucune circonstance ! Un vrai responsable d'ekoloko ne te demandera jamais cette information. Si quelqu'un te demande cette information, c'est qu'il veut probablement s'en servir pour utiliser ton compte.
+                    </span>
+					<br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Retour au haut de la page.</a>
+                    <br><br>
+                    </p>
+                  	<p align="center"><img src="../common/images/strip_8.jpg" class="images"><br><br></p>
+					
+					<p><span class="FAQTitle"><a name="e5"></a>Comment puis-je protéger mon mot de passe ?</span><br>
+                    <span class="BodyText">Nous avons quelques trucs :
+					<ol>
+						<li>Ne révèle jamais ton mot de passe à personne ! Ni à tes amis de tous les jours, ni à tes copains sur ekoloko</li>
+						<li>Quand tu joues sur un autre ordinateur que le tien, veille à ce que le bouton « mémoriser mon mot de passe » ne soit pas coché.</li>
+						<li>Ne note pas ton mot de passe sur un papier. Si tu l'oublies, clique sur le bouton « mot de passe oublié » et nous te le renverrons par e-mail.</li>
+						<li>Assure-toi que l'adresse e-mail que tu nous as fournie est correcte et que personne d'autre ne l'utilise.</li>
+						<li>Change ton mot de passe régulièrement.</li>
+					</ol>
+                    </span>
+					<br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Retour au haut de la page.</a>
+                    <br><br>
+                    </p>
+                  	<p align="center"><img src="../common/images/strip_9.jpg" class="images"><br><br></p>
+					
+					<p><span class="FAQTitle"><a name="e6"></a>Méfie-toi des tricheurs sur ekoloko :</span><br>
+                    <span class="BodyText">Malheureusement, dans ekoloko comme dans la vie, certains enfants aiment semer la pagaille. La meilleure façon de se protéger est de respecter les règles de conduite. Ne divulgue jamais d'informations personnelles telles que ton mot de passe, ton adresse e-mail, l'adresse de ton domicile ou ton compte de messagerie instantanée. Les enfants qui ne respectent pas les règles seront sévèrement punis. Pour échanger des objets, nous recommandons également de suivre la procédure d'échange plutôt que de se faire des cadeaux. 
+                    </span>
+					<br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Retour au haut de la page.</a>
+                    <br><br>
+                    </p>
+                  	<p align="center"><img src="../common/images/strip_10.jpg" class="images"><br><br></p>
+					
+					<p><span class="FAQTitle"><a name="e7"></a>Comment reconnaît-on un responsable dans ekoloko ?</span><br>
+                    <span class="BodyText">Les responsables sont les seuls avatars qui ont une étoile sous leur nom. Si tu vois quelqu'un qui prétend être un responsable alors qu'il n'a pas d'étoile, merci de le signaler immédiatement. 
+                    </span>
+					<br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Retour au haut de la page.</a>
+                    <br><br>
+                    </p>
+                  	<p align="center"><img src="../common/images/strip_1.jpg" class="images"><br><br></p>
+					
+					<p><span class="FAQTitle"><a name="f1"></a>Qui sont les Rangers d'ekoloko ?</span><br>
+                    <span class="BodyText">Les Rangers d'ekoloko sont des enfants qui réunissent les critères pour être ranger et qui ont pour responsabilité d'aider les nouveaux arrivants sur ekoloko et de veiller à ce que les règles de conduite soient respectées. On les reconnaît à l'auréole qu'ils ont au-dessus de la tête. Pour devenir ranger, il faut être un pionnier, avoir atteint au minimum le niveau 7, et se montrer prêt à aider les nouveaux arrivants. Les pionniers peuvent se porter candidat par l'intermédiaire de l'icône de la feuille de papier à droite de l'écran. Si tu réunis les critères, tu seras invité à une réunion de formation des Rangers.
+                    </span>
+					<br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Retour au haut de la page.</a>
+                    <br><br>
+                    </p>
+                  	<p align="center"><img src="../common/images/strip_2.jpg" class="images"><br><br></p>
+					
+					<p><span class="FAQTitle"><a name="f2"></a>Je suis déjà un ranger, mais je veux devenir un ranger de Niveau 2. Que dois-je faire ?</span><br>
+                    <span class="BodyText">Les rangers qui montrent d'excellentes qualités peuvent être sélectionnés pour devenir des rangers de Niveau 2 et acquérir ainsi des privilèges supplémentaires. 
+                    </span>
+					<br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Retour au haut de la page.</a>
+                    <br><br>
+                    </p>
+                  	<p align="center"><img src="../common/images/strip_3.jpg" class="images"><br><br></p>
+					
+					<p><span class="FAQTitle"><a name="g1"></a>Qu'arrive-t-il aux ekos qui enfreignent les règles ?</span><br>
+                    <span class="BodyText">Les ekos qui enfreignent les règles et empêchent les autres Ekos de profiter du jeu seront punis. Ils peuvent être bannis du système ou être interdits de discussion. 
+                    </span>
+					<br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Retour au haut de la page.</a>
+                    <br><br>
+                    </p>
+                  	<p align="center"><img src="../common/images/strip_4.jpg" class="images"><br><br></p>
+					
+					<p><span class="FAQTitle"><a name="g2"></a>Si je vous envoie un rapport sur un Eko qui s'est mal comporté, qu'allez-vous en faire ?</span><br>
+                    <span class="BodyText">Tous les rapports sont examinés, suite à quoi une décision est prise. Les enfants qui enfreignent les règles seront bannis et peuvent être interdits de discussion. Par ailleurs, nous passons en revue quotidiennement toutes les discussions échangées dans le souci de la sécurité des Ekos.  
+                    </span>
+					<br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Retour au haut de la page.</a>
+                    <br><br>
+                    </p>
+                  	<p align="center"><img src="../common/images/strip_5.jpg" class="images"><br><br></p>
+					
+					<p><span class="FAQTitle"><a name="g3"></a>Puis-je discuter en privé avec un ami ?</span><br>
+                    <span class="BodyText">La sécurité et le bien-être des enfants qui jouent à ekoloko sont notre premier souci. Nous n'autorisons pas les discussions privées, mais nous autorisons les communications privées par l'intermédiaire de « pokes » définis à l'avance.</span>
+					<br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Retour au haut de la page.</a>
+                    <br><br>
+                    </p>
+                  	<p align="center"><img src="../common/images/strip_6.jpg" class="images"><br><br></p>
+					
+					<p><span class="FAQTitle"><a name="g4"></a>Combien de temps puis-je passer sur ekoloko chaque jour ?</span><br>
+                    <span class="BodyText">Même si ekoloko est l'un des meilleurs sites destinés aux jeunes sur la toile, nous pensons qu'il est également important de s'aérer, de rencontrer «réellement» ses amis ou de lire des livres. C'est pourquoi nous limitons la durée maximum d'utilisation d'ekoloko à 6 heures par jour.
+                    </span>
+					<br>
+                    <a href="#top" class="faqQuestions" style="text-align:right; font-size:12px; float:right">Retour au haut de la page.</a>
+                    <br><br>
+                    </p>
+                  	<p align="center"><img src="../common/images/strip_7.jpg" class="images"><br><br></p>                  </td>
+              </tr>
+            </table>
+   
+      </div> </td>
+	  <td colspan="2" valign="top" style="background-repeat:no-repeat">
+	  <img src="../common/images/back_right.jpg" alt="" width="197" height="447"></td>
+  </tr>
+	<tr>
+    <td colspan="5" align="center">
+      <img src="../common/images/footer.jpg" style="position:relative; left:-28px"> 
+      <br>
+       <span  class="footerText" style="position:relative; left:-26px;"><a href="Parents_About.html" class="footerLinks">Société</a>  |  <a href="javascript:popUp('Terms.html')" class="footerLinks">Conditions d'utilisation</a>  |  <a href="javascript:popUp('Privacy.html')" class="footerLinks">Protection des données</a>  |  <a href="Help_Contact.html" class="footerLinks">Contactez nous</a>  |   <a href="Site_Map.html" class="footerLinks">Plan du site</a></span><span  class="footerText" style="position:relative; left:-26px;"><a href="Parents_About.html" class="footerLinks">Company</a>  |  <a href="javascript:popUp('Terms.html')" class="footerLinks">Terms of Use</a>  |  <a href="javascript:popUp('Privacy.html')" class="footerLinks">Privacy Policy</a>  |  <a href="Help_Contact.html" class="footerLinks">Contact Us</a>  |   <a href="Site_Map.html" class="footerLinks">Site map</a></span>
+      <br>
+      <span class="footerText">ekoloko.com © 2011 virtual tweens Ltd.</span></td>
+    </tr>
+    <tr>
+		<td>
+			<img src="../common/images/spacer.gif" width="93" height="1" alt=""></td>
+		<td>
+			<img src="../common/images/spacer.gif" width="50" height="1" alt=""></td>
+		<td>
+			<img src="../common/images/spacer.gif" width="860" height="1" alt=""></td>
+		<td>
+			<img src="../common/images/spacer.gif" width="50" height="1" alt=""></td>
+		<td>
+			<img src="../common/images/spacer.gif" width="147" height="1" alt=""></td>
+	</tr>
+</table>
+</body>
+<script type="text/javascript"> 
+  var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");  
+  document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E")); 
+</script> 
+
+<script type="text/javascript"> 
+  try{ 
+    	var pageTracker = _gat._getTracker("UA-4992646-7");
+    	pageTracker._setDomainName(".ekoloko.com");
+    	pageTracker._trackPageview();
+  } catch(err) {}
+</script>
+</html>

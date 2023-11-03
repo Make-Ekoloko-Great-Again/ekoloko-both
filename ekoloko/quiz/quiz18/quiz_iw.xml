@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<questionList>
+		<question value="1"/>
+		<question value="2"/>
+		<question value="3"/>
+		<question value="4"/>
+		<question value="5"/>
+		<question value="6"/>
+		<question value="7"/>
+	</questionList>
+	<questionTime>70</questionTime>
+	<showCorrect>true</showCorrect>
+	<allQuestions>
+		<questionItem id="1">
+			<question>אני רוצה להצטרף לאמנת ילדים#מובילים שינוי לשיפור מצב המים בישראל</question>
+			<answer id="1">כן</answer>
+			<answer id="2">לא</answer>
+			<correct id="1" />
+			<image></image>
+		</questionItem>
+		<questionItem id="2">
+			<question>אנחנו מתחייבים להתקלח במהירות#וביעילות ולא לבזבז מים בזמן המקלחת</question>
+			<answer id="1">כן</answer>
+			<answer id="2">לא</answer>
+			<correct id="1" />
+			<image></image>
+		</questionItem>
+		<questionItem id="3">
+			<question>אנחנו מתחייבים להשתמש בידית הקטנה#בשירותים אלא אם כן השימוש#בידית הגדולה הוא הכרחי</question>
+			<answer id="1">כן</answer>
+			<answer id="2">לא</answer>
+			<correct id="1" />
+			<image></image>
+		</questionItem>
+		<questionItem id="4">
+			<question>אנחנו מתחייבים לשטוף מכוניות#ודירות רק עם דלי ולא עם צינור</question>
+			<answer id="1">כן</answer>
+			<answer id="2">לא</answer>
+			<correct id="1" />
+			<image></image>
+		</questionItem>
+		<questionItem id="5">
+			<question>אנחנו מתחייבים להקפיד שכל הברזים#בסביבתנו יהיו סגורים עד הסוף ולא ידלפו</question>
+			<answer id="1">כן</answer>
+			<answer id="2">לא</answer>
+			<correct id="1" />
+			<image></image>
+		</questionItem>
+		<questionItem id="6">
+			<question>אנחנו מתחייבים שבגינה שלנו#יהיה ציוד השקייה תקין וחסכוני ככל האפשר</question>
+			<answer id="1">כן</answer>
+			<answer id="2">לא</answer>
+			<correct id="1" />
+			<image></image>
+		</questionItem>
+		<questionItem id="7">
+			<question>אנחנו מתחייבים לעשות שימוש מושכל#במים ולא לבזבזם למעננו#למען הטבע ולמען הדורות הבאים</question>
+			<answer id="1">כן</answer>
+			<answer id="2">לא</answer>
+			<correct id="1" />
+			<image></image>
+		</questionItem>
+	</allQuestions>
+</data>

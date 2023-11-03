@@ -1,0 +1,125 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>ekoloko.com</title>
+
+<style type="text/css">
+<!--
+body,td,th {
+	font-family: Arial, Helvetica, sans-serif;
+}
+body {
+	background-color: #000000;
+}
+.style1 {color: #FFFFFF}
+.div2 { background-color:#666666; width:100% }
+a:link {
+	color: #999999;
+}
+a:visited {
+	color: #CCCCCC;
+}
+a:hover {
+	color: #0066FF;
+}
+.holder {
+	background: url(images/div.png);
+	background-repeat:repeat;
+	width:100%;
+	height:100%;
+	visibility: hidden;
+	position:absolute;
+}
+.photo {
+	position: absolute; top:10px;
+	left: 200px;
+}
+.style3 {color: #FFFFFF; font-weight: bold; }
+-->
+</style></head>
+<script language="javascript">
+function initImage() {
+  imageId = 'photoholder';
+  image = document.getElementById(imageId);
+  setOpacity(image, 0);
+  image.style.visibility = 'hidden';
+  //image.style.visibility = 'visible';
+  //fadeIn(imageId,0);
+}
+function setOpacity(obj, opacity) {
+  opacity = (opacity == 100)?99.999:opacity;
+  
+  // IE/Win
+  obj.style.filter = "alpha(opacity:"+(opacity*2)+")";
+
+  // Safari<1.2, Konqueror
+  obj.style.KHTMLOpacity = opacity/100;
+  
+  // Older Mozilla and Firefox
+  obj.style.MozOpacity = opacity/100;
+  
+  // Safari 1.2, newer Firefox and Mozilla, CSS3
+  obj.style.opacity = opacity/100;
+
+}
+function fadeIn(objId,opacity) {
+  if (document.getElementById) {
+    obj = document.getElementById(objId);
+    if (opacity <= 100) {
+      setOpacity(obj, opacity);
+      opacity += 10;
+      window.setTimeout("fadeIn('"+objId+"',"+opacity+")", 100);
+    }
+  }
+}
+
+function displayImage(name) {
+	document.thephoto.src = "images/"+name
+	imageId = 'photoholder';
+ 	image = document.getElementById(imageId);
+	image.style.visibility = 'visible';
+	fadeIn(imageId,0);
+}
+</script>
+<body onload="initImage()">
+<div class="title style1"><img src="images/logo.jpg" width="387" height="63" /><br>
+<a href="mailto:arnon@gpmc.rf.gd">arnon@gpmc.rf.gd</a></div>
+<br />
+
+<div id='photoholder' class="holder" align="center" onmousedown="initImage()">
+
+  <div id='photo' class='photo'>
+    <span class="style3">click anywhere to go back.</span><br />
+      <img src='images/31237341_083544_File_2.jpg' name='thephoto' />
+  </div>
+</div>
+<div></div>
+<table width="100%" align="left" cellpadding="10" bgcolor="#666666">
+<tr>
+<td>
+<table width="70%" border="0" align="left" cellpadding="10" cellspacing="0" bgcolor="#666666">
+  <tr>
+    <td align="center"><a href="#"><img border="5" src="thumbnails/31237341_083544_File_2.jpg" onmousedown="displayImage('31237341_083544_File_2.jpg')" /></a></td>
+    <td align="center"><a href="#"><img border="5" src="thumbnails/31237341_083821_File_3-1.jpg" onmousedown="displayImage('31237341_083821_File_3-1.jpg')" /></a></td>
+    <td align="center"><a href="#"><img border="5" src="thumbnails/31237341_083822_File_2.jpg" onmousedown="displayImage('31237341_083822_File_2.jpg')" /></a></td>
+    <td align="center"><a href="#"><img border="5" src="thumbnails/31237341_084133_File_2.jpg" onmousedown="displayImage('31237341_084133_File_2.jpg')" /></a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="#"><img border="5" src="thumbnails/31237341_105720_File_3-1.jpg" onmousedown="displayImage('31237341_105720_File_3-1.jpg')" /></a></td>
+    <td align="center"><a href="#"><img border="5" src="thumbnails/31237341_084212_File_2.jpg" onmousedown="displayImage('31237341_084212_File_2.jpg')" /></a></td>
+    <td align="center"><a href="#"><img border="5" src="thumbnails/31237341_084403_File_2.jpg" onmousedown="displayImage('31237341_084403_File_2.jpg')" /></a></td>
+    <td align="center"><a href="#"><img border="5" src="thumbnails/31237341_084454_File_2.jpg" onmousedown="displayImage('31237341_084454_File_2.jpg')" /></a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="#"><img border="5" src="thumbnails/31237341_120209084433_2.jpg" onmousedown="displayImage('31237341_120209084433_2.jpg')" /></a></td>
+    <td align="center"><a href="#"><img border="5" src="thumbnails/31237341_084817_File_23.jpg" onmousedown="displayImage('31237341_084817_File_23.jpg')" /></a></td>
+    <td align="center"><a href="#"><img border="5" src="thumbnails/31237341_084825_File_2.jpg" onmousedown="displayImage('31237341_084825_File_2.jpg')" /></a></td>
+    <td align="center"><a href="#"><img border="5" src="thumbnails/31237341_210109101804_2.jpg" onmousedown="displayImage('31237341_210109101804_2.jpg')" /></a></td>
+  </tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>

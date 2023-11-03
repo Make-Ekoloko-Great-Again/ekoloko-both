@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<starting>
+		<scene>scenes/intro_en.xml</scene>
+	</starting>
+	<random>
+		<scene>scenes/intro_en.xml</scene>
+	</random>
+</data>

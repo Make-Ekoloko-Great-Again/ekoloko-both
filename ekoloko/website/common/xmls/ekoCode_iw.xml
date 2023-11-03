@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<endTitle><![CDATA[<font color="#F9CA3E">!מזל טוב<br/>האקו-קוד הופעל<br/></font>]]></endTitle>
+	<gotTitle><![CDATA[קיבלת ]]></gotTitle>
+	<hasTitle><![CDATA[האקו קוד מכיל<br/>]]></hasTitle>
+	<monthsTitle> חודשים </monthsTitle>
+	<weeksTitle> שבועות </weeksTitle>
+	<daysTitle> ימים </daysTitle>
+	<goldTitle> קוקואים </goldTitle>
+	<pioneerPointsTitle> נקודות חלוץ </pioneerPointsTitle>
+	<pioneerTitle>חלוץ מתנה</pioneerTitle>
+	<andTitle>ו</andTitle>
+	<giftTitle>הפתעה</giftTitle>
+	
+	<error_unknown>שגיאת התקשרות אנא נסו שנית</error_unknown>
+	<error_captcha>קוד אישור שגוי</error_captcha>
+	<error_date>האקו-קוד שהכנסת פג תוקפו</error_date>
+	<error_code>האקו-קוד שהכנסת אינו תקין</error_code>
+	<error_inventory><![CDATA[האקו קוד לא הופעל כי סל החפצים מלא,עליך לפנות מקום ולנסות שנית<br/>]]></error_inventory>
+	<error_not_pionner><![CDATA[<font color='#CC0000'> אקו-קוד זה הינו לחלוצים בלבד ולכן לא הופעל</font><font color='#113C66'>הצטרפו לחלוצים ותוכלו ליהנות ממנו כבר היום</br></font>]]></error_not_pionner>
+	<error_startin><![CDATA[<font color='#CC0000'>אקו-קוד זה עדיין לא פעיל</font><br/><font color='#113C66'>הוא יהיה מוכן להפעלה רק בעוד </font>]]></error_startin>
+</data>

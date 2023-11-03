@@ -1,0 +1,36 @@
+﻿<html>
+<head>
+<title>ekoloko.com</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<script language="javascript" type="text/javascript">
+function getParameter ( parameterName ) {
+  var queryString = window.top.location.search
+  // Add "=" to the parameter name (i.e. parameterName=value)
+  var parameterName = parameterName + "=";
+  if ( queryString.length > 0 ) {
+    // Find the beginning of the string
+    begin = queryString.indexOf ( parameterName );
+    // If the parameter name is not found, skip it, otherwise return the value
+    if ( begin != -1 ) {
+      // Add the length (integer) to the beginning
+      begin += parameterName.length;
+      // Multiple parameters are separated by the "&" sign
+      end = queryString.indexOf ( "&" , begin );
+      if ( end == -1 ) {
+        end = queryString.length
+      }
+    // Return the string
+    return unescape ( queryString.substring ( begin, end ) );
+    }
+    // Return "null" if no parameter has been found
+    return "null";
+  }
+}
+function change() {
+	window.location = "../../website/"+getParameter('language')+"/ShamanInfo.html";
+}
+</script>
+</head>
+<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onLoad="change()">
+</body>
+</html>

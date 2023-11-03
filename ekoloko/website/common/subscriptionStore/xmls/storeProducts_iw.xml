@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<plimusTemplateId>688783</plimusTemplateId>
+	<loadBanner filename="banners/preloader_2014_purim.swf" />
+	<!--<merchendise active="1" ><![CDATA[<b>יפלקו רפס<br/>םינפסאה</b>]]></merchendise>-->
+	<accessories active="1" image="accessories.swf" image2="albumCards.swf"><![CDATA[<b>םירידנה ןוינק<br/></b>]]></accessories>
+	<accessoriesSubTitle><![CDATA[<b>ןועטל ולכות ןאכ<br/>םכנובשחב זנייוק-וקא</b>]]></accessoriesSubTitle>
+	<extraProductsTitle><![CDATA[<b>:תופסונ תוליבח</b>]]></extraProductsTitle>
+	<product id="35,23">
+	<!--<product id="35,23,57"> -->
+		<title>יתנש ץולח</title>
+		<subTitle>םישדוח 12 יונמ</subTitle>
+		<itemsTitle><![CDATA[<b>...םגו<br/>הלאה תורידנה תונתמה</b>]]></itemsTitle>
+		<productIsActive>1</productIsActive>
+		<enableOnFirstPayment>0</enableOnFirstPayment>
+		<disableIfNotPioneer>0</disableIfNotPioneer>
+		<popularProduct>0</popularProduct>
+		<payByPhone>1</payByPhone>
+		<payByCheque>0</payByCheque>
+		<credits>0</credits>
+		<paymentMethods>
+			<payment type="creditCard" active="1" />
+			<payment type="payPal" active="1" />
+		</paymentMethods>
+		<specialTitles>
+			<specialTitle id="35" delay="6" time="2"><![CDATA[<b><font size="20">דחוימ ריחמ</font><br>ןופלטבו טנרטניאב</b>]]></specialTitle>
+						<specialTitle id="23" delay="6" time="2"><![CDATA[<b><font size="20">היינק תורשפא</font><br>ןופלטבו טנרטניאב</b>]]></specialTitle>
+									<specialTitle id="57" delay="6" time="2"><![CDATA[<b><font size="20">היינק תורשפא</font><br>ןופלטבו טנרטניאב</b>]]></specialTitle>
+		</specialTitles>
+	</product>
+	<product id="36,22">
+<!--	<product id="36,22,58"> -->
+		<title>יתנש יצח ץולח</title>
+		<subTitle>םישדוח 6 יונמ</subTitle>
+		<itemsTitle><![CDATA[<b>...םגו<br/>הלאה תורידנה תונתמה</b>]]></itemsTitle>
+		<productIsActive>1</productIsActive>
+		<enableOnFirstPayment>0</enableOnFirstPayment>
+		<disableIfNotPioneer>0</disableIfNotPioneer>
+		<popularProduct>0</popularProduct>
+		<payByPhone>1</payByPhone>
+		<payByCheque>0</payByCheque>
+		<credits>0</credits>
+		<paymentMethods>
+			<payment type="creditCard" active="1" />
+			<payment type="payPal" active="1" />
+		</paymentMethods>
+		<specialTitles>
+					<specialTitle id="36" delay="8" time="2"><![CDATA[<b><font size="20">דחוימ ריחמ</font><br>ןופלטבו טנרטניאב</b>]]></specialTitle>
+						<specialTitle id="22" delay="8" time="2"><![CDATA[<b><font size="20">היינק תורשפא</font><br>ןופלטבו טנרטניאב</b>]]></specialTitle>
+									<specialTitle id="58" delay="8" time="2"><![CDATA[<b><font size="20">היינק תורשפא</font><br>ןופלטבו טנרטניאב</b>]]></specialTitle>
+		</specialTitles>
+	</product>
+	<product id="62">
+		<title>ישדוח-תלת</title>
+		<subTitle>ךשמתמ יונמ</subTitle>
+		<itemsTitle><![CDATA[<b>...םגו<br/>הלאה תורידנה תונתמה</b>]]></itemsTitle>
+		<productIsActive>1</productIsActive>
+		<enableOnFirstPayment>0</enableOnFirstPayment>
+		<disableIfNotPioneer>0</disableIfNotPioneer>
+		<popularProduct>0</popularProduct>
+		<payByPhone>1</payByPhone>
+		<payByCheque>0</payByCheque>
+		<credits>0</credits>
+		<paymentMethods>
+			<payment type="creditCard" active="1" />
+			<payment type="payPal" active="1" />
+		</paymentMethods>
+		<specialTitles>
+							<specialTitle id="62" delay="5" time="7"><![CDATA[<b><font size="20">דחוימ יונמ</font><br>םישדוח השולשל</b>]]></specialTitle>
+		</specialTitles>
+	</product>
+<product id="6">
+		<title>ישדוח ץולח</title>
+		<subTitle>ךשמתמ יונמ</subTitle>
+		<itemsTitle><![CDATA[<b>...םגו<br/>הלאה תורידנה תונתמה</b>]]></itemsTitle>
+		<productIsActive>1</productIsActive>
+		<enableOnFirstPayment>0</enableOnFirstPayment>
+		<disableIfNotPioneer>0</disableIfNotPioneer>
+		<popularProduct>0</popularProduct>
+		<payByPhone>1</payByPhone>
+		<payByCheque>0</payByCheque>
+		<credits>0</credits>
+		<paymentMethods>
+			<payment type="creditCard" active="1" />
+			<payment type="payPal" active="1" />
+		</paymentMethods>
+		<specialTitles>
+		</specialTitles>
+	</product>	
+</data>

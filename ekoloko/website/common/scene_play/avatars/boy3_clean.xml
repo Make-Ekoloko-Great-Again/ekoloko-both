@@ -1,0 +1,13 @@
+﻿<avatar name="boy3" level="23">
+  <items>
+    <item type="16" name="MAKEUP" ordinal="1"/>
+    <item type="1" name="HAIR" ordinal="50504"/>
+    <item type="2" name="EYES" ordinal="1"/>
+    <item type="4" name="SHIRT" ordinal="50336"/>
+    <item type="6" name="PANTS" ordinal="10120"/>
+    <item type="7" name="SHOES" ordinal="10323"/>
+    <item type="8" name="GLASSES" ordinal="10904"/>
+    <item type="13" name="HAT" ordinal="10706"/>
+    <item type="15" name="SKINTONE" ordinal="1"/>
+  </items>
+</avatar>

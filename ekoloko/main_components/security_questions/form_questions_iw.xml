@@ -1,0 +1,61 @@
+﻿<data>
+<questions>
+  <question id="1">?מה שם הגננת שלכם מגן חובה</question>
+  <question id="2">?מה שם המשפחה של סבא שלכם מצד אמא</question>
+  <question id="3">?מה הוא המאכל האהוב עליכם</question>
+  <question id="4">?מה הוא המאכל הכי פחות אהוב עליכם</question>
+  <question id="5">?איזה שיעור אתם הכי אוהבים</question>
+  <question id="6">?איזה שיעור אתם הכי פחות אוהבים</question>
+  <question id="7">?מה הוא הצבע האהוב עליכם</question>
+  <question id="8">?איזו חיה אתם הכי אוהבים</question>
+  <question id="9">?איזה ספורט אתם הכי אוהבים</question>
+  <question id="10">?מה היא תכנית הטלוויזיה האהובה עליכם</question>
+  <question id="11">?מה הוא הספר האהוב עליכם</question>
+  <question id="12">?מה הוא מספר המזל שלכם</question>
+  <question id="13">?איזה מזל אתם</question>
+  <question id="14">?מה הוא המשקה האהוב עליכם</question> 
+  <question id="15">?מהו שם העיר שבה נולדת</question> 
+  <question id="16">?מה שם המחנכ/ת שלך בכיתה א</question> 
+  <question id="17">?מה שמה הפרטי של סבתא שלך מצד אמא</question> 
+  <question id="18">כמה אחים ואחיות יש לאבא?-במספר</question> 
+  <question id="19">כמה אחים ואחיות יש לאמא?-במספר</question> 
+  <question id="20">?מהו מספר הבית ברחוב שאתם גרים בו</question> 
+  <question id="21">?מהו שם המשפחה של סבא שלכם מצד אמא</question> 
+  
+</questions>
+<question_intros>
+  <question_intro id="1">!מצוין! בואו נמשיך לשאלה הבאה</question_intro>
+  <question_intro id="2">כל הכבוד! נמשיך לשאלה הבאה</question_intro>
+</question_intros>
+<answer_waits>
+    <answer_wait id="1">Please fill in the blank</answer_wait>
+</answer_waits>                                
+<mismatch_errors> 
+  <mismatch_error id="1">הקפידו לכתוב בחלונית השניה בדיוק את התשובה שכתבתכם בחלונית הראשונה. נסו שוב</mismatch_error> 
+  <mismatch_error id="2">חברים, התשובה בחלונית השניה צריכה להיות זהה בדיוק לתשובה בחלונית הראשונה. נסו שוב</mismatch_error>
+  <mismatch_error id="3">נסו שוב! התשובה בחלונית השניה אינה תואמת את התשובה שהקלדתם בחלונית הראשונה</mismatch_error>
+</mismatch_errors>        
+<test_errors>  
+  <test_error id="1">התשובה שהכנסתם אינה תואמת את התשובה המקורית שלכם#ענו מחדש, והפעם התרכזו וזכרו את התשובה</test_error>
+</test_errors>     
+<repeats>  
+  <repeat id="1">!יפה מאד#עכשיו כתבו בחלונית השניה בדיוק את אותה התשובה</repeat>
+  <repeat id="2">!יופי#עכשיו כתבו שוב את התשובה בחלונית המתאימה</repeat>
+  <repeat id="3">סבבה! עכשיו כתבו בדיוק את אותה התשובה בחלונית השניה#אל תשכחו להקפיד על איות נכון</repeat>
+</repeats>   
+<form_intro_text>ברוכים הבאים לשאלון הזהות. השאלון הזה יאפשר לכם לשמור על השחקן שלכם מפני השתלטות#.השאלון כולל שאלות שרק אתם יודעים את התשובות עליהן#בכל פעם שתרצו לשנות או לקבל תזכורת לסיסמה שלכם באקולוקו תצטרכו קודם למלא את התשובות שלכם לשאלון#!קחו את הזמן וביחרו תשובות שתוכלו לזכור אותן תמיד. בהצלחה</form_intro_text>
+<form_mid_intro_text>סבבה לגמרי! השלמתם את השאלון#מעכשיו, בכל פעם שתרצו לשנות או לקבל תזכורת לסיסמה שלכם, להחליף כתובת מייל או לשנות את קוד אבטחת החפצים תצטרכו לענות בדיוק את אותן התשובות לשאלות הללו וכך נוודא שאתם באמת אתם##לפני שנמשיך אנחנו רק רוצים לוודא שאתם זוכרים את התשובות לכל השאלות</form_mid_intro_text>    
+<form_finish_text>!כל הכבוד#סיימתם את שאלון הזהות שלכם ומהיום האקו שלכם שמור במיוחד#אל תשכחו, התשובות שמילאתם הן סודיות ומאד לא כדאי לספר אותן לאף אחד#נתראה בקרוב</form_finish_text> 
+<first_question_intro>?מוכנים לשאלה הראשונה#מעולה! בואו נתחיל</first_question_intro>
+<check_intro_text>#!ברוכים הבאים למבדק הזהות#בכדי לשמור על השחקן שלכם תידרשו#לענות על מבדק הזהות שלכם#לפני כל שינוי סיסמה, כתובת מייל או #בשינוי קוד אבטחת החפצים שלכם#זיכרו לענות בדיוק את התשובות שמילאתם#לשאלון הזהות##בהצלחה</check_intro_text>
+<test_ribbon>תוהז קדבמ</test_ribbon>   
+<continue_but>המשך</continue_but>
+
+<forgot_pass_intro_text>#!ברוכים הבאים למבדק הזהות#בכדי לשמור על השחקן שלכם תידרשו#לענות על מבדק הזהות שלכם#לפני שנוכל לשלוח לכם תזכורת לסיסמה שלכם#זיכרו לענות בדיוק את התשובות#שמילאתם לשאלון הזהות##בהצלחה</forgot_pass_intro_text> 
+<forgot_pass_ending_bad_sec_data_text>טעיתם בתשובות למבדק הזהות. נסו שוב מאוחר יותר</forgot_pass_ending_bad_sec_data_text>   
+<forgot_pass_username_validation>אנא הכניסו את שם המשתמש שלכם</forgot_pass_username_validation>
+<forgot_pass_captcha>אנא העתיקו את הספרות לחלונית</forgot_pass_captcha>
+
+<reset_intro_text>מיד נתחיל בתהליך איפוס הסיסמה#שימו לב#שאלון הבטיחות שומר על#השחקן שלכם מאובטח#אם החלטתם לאפס #את "שאלון הבטיחות" מלאו אותו מחדש#מיד לאחר האיפוס#בכדי לוודא שהשחקן שלכם#שמור ובטוח</reset_intro_text>
+        
+</data>

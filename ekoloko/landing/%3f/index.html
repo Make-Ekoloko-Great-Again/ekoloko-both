@@ -1,0 +1,48 @@
+<html>
+<title>ekoloko</title>
+
+<script language="javascript">
+
+function getParameter ( parameterName ) {
+  var queryString = window.top.location.search
+  // Add "=" to the parameter name (i.e. parameterName=value)
+  var parameterName = parameterName + "=";
+  if ( queryString.length > 0 ) {
+    // Find the beginning of the string
+    begin = queryString.indexOf ( parameterName );
+    // If the parameter name is not found, skip it, otherwise return the value
+    if ( begin != -1 ) {
+      // Add the length (integer) to the beginning
+      begin += parameterName.length;
+      // Multiple parameters are separated by the "&" sign
+      end = queryString.indexOf ( "&" , begin );
+      if ( end == -1 ) {
+        end = queryString.length
+      }
+    // Return the string
+    return unescape ( queryString.substring ( begin, end ) );
+    }
+    // Return "null" if no parameter has been found
+    return "null";
+  }
+}
+
+function redirectPage() {
+  window.location = url+swfUrl;
+}
+var url = 'http://play.ekoloko.com/ekoloko/register.html';
+var swfUrl = '?language='+getParameter('language')+'&username='+getParameter('username')+'&friend='+getParameter('friend')+'&refCode='+getParameter('refCode');
+</script>
+</head>
+<body onload='redirectPage()'>
+</body>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-4992646-2");
+pageTracker._trackPageview();
+</script>
+</html>

@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+	
+<pageFlipper>
+
+	<settings startPage="72" followSpeed="7" flipSpeed="5" pageFolder="../common/newspaper/pages/issue1_iw/" overCornerSize="70" clickCornerSize="50" flipSound="PageFlipSound" scaleToFit="true" loadOnDemand="true" shadowDepth="50" backColor="0xc3cf65" displayOnLoad="true" numbering="none" pageOrder="last to first"/>
+
+	<page>cover.jpg</page>
+	
+	<page>h1.jpg</page>
+	<page>h2.jpg</page>
+	<page>h3.jpg</page>
+	<page>h4.jpg</page>
+	<page>h5.jpg</page>
+	<page>h6.jpg</page>
+
+	<page>p1.jpg</page>
+	<page>p2.jpg</page>
+	<page>p3.jpg</page>
+	<page>p4.jpg</page>
+	<page>p5.jpg</page>
+	<page>p6.jpg</page>
+	<page>p7.jpg</page>
+	<page>p8.jpg</page>
+	<page>p9.jpg</page>
+	<page>p10.jpg</page>
+	<page>p11.jpg</page>
+	<page>p12.jpg</page>
+	<page>p13.jpg</page>
+	<page>p14.jpg</page>
+	<page>p15.jpg</page>
+	<page>p16.jpg</page>
+	<page>p17.jpg</page>
+	<page>p18.jpg</page>
+	<page>p19.jpg</page>
+	<page>p20.jpg</page>
+	<page>p21.jpg</page>
+	<page>p22.jpg</page>
+	<page>p23.jpg</page>
+	<page>p24.jpg</page>
+	<page>p25.jpg</page>
+	<page>p26.jpg</page>
+	<page>p27.jpg</page>
+	<page>p28.jpg</page>
+	<page>p29.jpg</page>
+	<page>p30.jpg</page>
+	<page>p31.jpg</page>
+	<page>p32.jpg</page>
+	<page>p33.jpg</page>
+	<page>p34.jpg</page>
+	<page>p35.jpg</page>
+	<page>p36.jpg</page>
+	<page>p37.jpg</page>
+	<page>p38.jpg</page>
+	<page>p39.jpg</page>
+	<page>p40.jpg</page>
+	<page>p41.jpg</page>
+	<page>p42.jpg</page>
+	<page>p43.jpg</page>
+	<page>p44.jpg</page>
+	<page>p45.jpg</page>
+	<page>p46.jpg</page>
+	<page>p47.jpg</page>
+	<page>p48.jpg</page>
+	<page>p49.jpg</page>
+	<page>p50.jpg</page>
+	<page>p51.jpg</page>
+	<page>p52.jpg</page>
+	<page>p53.jpg</page>
+	<page>p54.jpg</page>
+	<page>p55.jpg</page>
+	<page>p56.jpg</page>
+	<page>p57.jpg</page>
+	<page>p58.jpg</page>
+	<page>p59.jpg</page>
+	<page>p60.jpg</page>
+	<page>empty2.jpg</page>
+	<page>empty1.jpg</page>
+	<page>empty2.jpg</page>
+	<page>empty1.jpg</page>
+	
+	<page>back.jpg</page>
+
+</pageFlipper>

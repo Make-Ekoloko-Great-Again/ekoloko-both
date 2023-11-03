@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<flow avatar="girl1">
+		<command name="add2stage" x="-100" y="390" />
+		<command name="wait" seconds="1" />
+		<command name="mimic" face="normal" />
+		<command name="walk" seconds="4" x="450" y="400"  />
+		<command name="wait" seconds="2" />
+		<command name="talk" seconds="4" msg="היוש. מה העניינים?" />
+		<command name="wait" seconds="16" />
+		<command name="talk" seconds="3" msg="חחחחחח" />
+		<command name="wait" seconds="4" />
+		<command name="talk" seconds="4" msg="טוב..ביוש אני מאחרת לתצוגת אופנה בחללית" />
+		<command name="wait" seconds="4" />
+		<command name="walk" seconds="3" x="1050" y="390" />
+	</flow>
+	<flow avatar="boy1">
+		<command name="add2stage" x="-150" y="430" />
+		<command name="wait" seconds="1" />
+		<command name="mimic" face="normal" />
+		<command name="walk" seconds="4" x="370" y="430"  />
+		<command name="wait" seconds="10" />
+		<command name="mimic" face="puzzled" />
+		<command name="talk" seconds="3" msg="למה?" />
+		<command name="wait" seconds="7" />
+		<command name="talk" seconds="3" msg="חחחחחח" />
+		<command name="wait" seconds="10.5" />
+		<command name="walk" seconds="3" x="-150" y="430" />
+	</flow>
+	
+	<flow avatar="girl2">
+		<command name="add2stage" x="1050" y="410" />
+		<command name="wait" seconds="1" />
+		<command name="mimic" face="angry" />
+		<command name="walk" seconds="6" x="580" y="420"  />
+		<command name="wait" seconds="4" />
+		<command name="talk" seconds="4" msg="כל השרירים שלי תפוסים" />
+		<command name="wait" seconds="7" />
+		<command name="talk" seconds="4" msg="אתמול שיחקתי שלוש שעות קוקו סל" />
+		<command name="wait" seconds="13" />
+		<command name="walk" seconds="4" x="-150" y="410" />
+	</flow>
+	
+</data>

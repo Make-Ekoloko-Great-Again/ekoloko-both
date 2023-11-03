@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<error_inventory><![CDATA[האקו קארד שלך לא הופעל מכיוון שסל החפצים שלך מלא.<br/>עליך להיכנס לאקולוקו, לפנות מקום בסל החפצים ולנסות להפעיל את האקו קארד בשנית]]></error_inventory>
+	<notEkoCard>הכרטיס אינו כרטיס אקו קארד. כרטיס הנדירים ניתן למימוש בחנות הנדירים בלבד</notEkoCard>
+	<error_unknown>העסקה לא הושלמה האקו-קארד  תקין נסו שוב בעוד מספר דקות -תקלה מספר 2001</error_unknown>	
+	<urlError>בעיית התקשרות האקו-קארד תקין נסו שוב בעוד מספר דקות-תקלה מספר 2002</urlError>
+	<error_captcha>קוד אישור שגוי</error_captcha>
+	<error_code>הקוד שהכנסת אינו תקין</error_code>
+	<error_name>נא הכנס שם ושם משפחה</error_name>
+	<error_credit>כרטיס זה כבר מומש</error_credit>
+	<error_phone>נא הכנס מספר טלפון</error_phone>
+	<error_address>נא מלא את הכתובת</error_address>
+	<error_email>נא מלא כתובת אי-מייל</error_email>
+	<endTitle><![CDATA[<font color="#F9CA3E">מזל-טוב<br/>האקו-קארד הופעל<br/>בהצלחה</font>]]></endTitle>
+	<gotTitle><![CDATA[האקו-קארד שהוקלד כולל]]></gotTitle>
+	<monthly_pioneer>חלוץ דו-חדשי</monthly_pioneer>
+	<halfYear_pioneer>חלוץ חצי שנתי</halfYear_pioneer>
+	<fullYear_pioneer>חלוץ שנתי</fullYear_pioneer>]
+	<goldTitle> - קוקואים  </goldTitle>
+	<pioneerPointsTitle>- נקודות חלוץ  </pioneerPointsTitle>
+	<andTitle></andTitle>
+	<giftTitle>והמתנות הבאות</giftTitle>
+</data>

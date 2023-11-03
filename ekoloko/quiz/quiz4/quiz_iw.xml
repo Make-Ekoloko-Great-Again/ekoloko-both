@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<questionList>
+		<question value="#"/>
+		<question value="#"/>
+		<question value="#"/>
+		<question value="#"/>
+		<question value="#"/>
+		<question value="#"/>
+		<question value="#"/>
+		<question value="#"/>
+	</questionList>
+	<questionTime>70</questionTime>
+	<showCorrect>true</showCorrect>
+	<allQuestions>
+		<questionItem id="1">
+			<question>איזה מהבאים הוא  עיקרון#של מועצת המיחזור</question>
+			<answer id="1">שימוש חוזר</answer>
+			<answer id="2">מיחזור</answer>
+			<answer id="3">הפחתה בשימוש</answer>
+			<answer id="4">היי קראתי בעיתון כל התשובות נכונות</answer>
+			<correct id="4" />
+			<image></image>
+		</questionItem>
+		<questionItem id="2">
+			<question>כמה זמן לוקח לבקבוק פלסטיק להתכלות</question>
+			<answer id="1">אלף שנה</answer>
+			<answer id="2">שתי דקות</answer>
+			<answer id="3">הוא לא מתכלה לעולם</answer>
+			<answer id="4">אף תשובה אינה נכונה</answer>
+			<correct id="1" />
+			<image></image>
+		</questionItem>
+		<questionItem id="3">
+			<question>מה מהמוצרים הבאים אפשר#לייצר מפלסטיק ממוחזר</question>
+			<answer id="1">מעיל פליז</answer>
+			<answer id="2">אריזות לפירות</answer>
+			<answer id="3">ריהוט גינה</answer>
+			<answer id="4">כל התשובות מה זה  נכונות</answer>
+			<correct id="4" />
+			<image></image>
+		</questionItem>
+		<questionItem id="4">
+			<question>כמה זמן לוקח  לשקית#פלסטיק להתפרק בטבע</question>
+			<answer id="1">חמש מאות שנה</answer>
+			<answer id="2">היא לעולם לא מתפרקת</answer>
+			<answer id="3">העולם יתפוצץ לפני שהשקית תתפרק</answer>
+			<answer id="4">חודשיים</answer>
+			<correct id="1" />
+			<image></image>
+		</questionItem>
+		<questionItem id="5">
+			<question>איך אפשר להקטין את השימוש#בשקיות פלסטיק</question>
+			<answer id="1">שימוש בשקיות רב פעמיות</answer>
+			<answer id="2">הפגנות סוערות</answer>
+			<answer id="3">לקחת הביתה את הקניות בידיים</answer>
+			<answer id="4">אי אפשר</answer>
+			<correct id="1" />
+			<image></image>
+		</questionItem>
+		<questionItem id="6">
+			<question>באיזה צורה פוגעות שקיות פלסטיק בחיות</question>
+			<answer id="1">חנק מבליעה</answer>
+			<answer id="2">הן מכערות להן את השכונה</answer>
+			<answer id="3">הן מפריעות לציפורים לעוף</answer>
+			<answer id="4">קשקושים הן לא מפריעות</answer>
+			<correct id="1" />
+			<image></image>
+		</questionItem>
+		<questionItem id="7">
+			<question>באיזה צורה פוגעות שקיות פלסטיק בצמחים</question>
+			<answer id="1">השקיוות מונעות פליטת גזים מהצמח</answer>
+			<answer id="2">השקיות מכערות את הצמח וציפורים לא באות להעביר אבקנים</answer>
+			<answer id="3">חוסמות את קליטת המים של השורשים</answer>
+			<answer id="4">שטויות שקיות לא עושות כלום לצמחים</answer>
+			<correct id="1" />
+			<image></image>
+		</questionItem>
+		<questionItem id="8">
+			<question>ממה עושים שקיות פלסטיק</question>
+			<answer id="1">נפט גולמי</answer>
+			<answer id="2">גללי סוסים</answer>
+			<answer id="3">חול</answer>
+			<answer id="4">נו באמת אף תשובה אינה נכונה</answer>
+			<correct id="1" />
+			<image></image>
+		</questionItem>
+		<questionItem id="9">
+			<question>כשאני קונה מוצר חדש עלינו לוודא קודם ש</question>
+			<answer id="1">אנחנו באמת צריכים אותו</answer>
+			<answer id="2">אפשר לעשות בו שימוש חוזר</answer>
+			<answer id="3">שהוא עשוי מחומרים ממוחזרים</answer>
+			<answer id="4">נו אתם באים לעבוד עליי? כל התשובות נכונות </answer>
+			<correct id="4" />
+			<image></image>
+		</questionItem>
+		<questionItem id="10">
+			<question>מיחזור זה</question>
+			<answer id="1">הפיכת מוצר קיים לחומר גלם של מוצר אחר</answer>
+			<answer id="2">החלפת שחקן בשחקן אחר בקוקו סל</answer>
+			<answer id="3">שימוש מחדש באותו המוצר בלי לעשות בו אף שינוי</answer>
+			<answer id="4">אתם בטח מתבדחים. אף תשובה אינה נכונה</answer>
+			<correct id="1" />
+			<image></image>
+		</questionItem>
+		<questionItem id="11">
+			<question>שימוש חוזר זה</question>
+			<answer id="1">שימוש נוסף באותו מוצר</answer>
+			<answer id="2">הפיכת מוצר קיים לחומר גלם של מוצר אחר</answer>
+			<answer id="3">החלפת שחקן בשחקן בקוקו סל</answer>
+			<answer id="4">תנוחו אף תשובה אינה נכונה</answer>
+			<correct id="1" />
+			<image></image>
+		</questionItem>
+		<questionItem id="12">
+			<question>הפחתה בשימוש היא</question>
+			<answer id="1">החלטה לקנות פחות</answer>
+			<answer id="2">לקנות את אותה הכמות, אבל להצטער על הנזק שאנחנו עושים</answer>
+			<answer id="3">שימוש במוצרים ירודים</answer>
+			<answer id="4">כל התשובות נכונות</answer>
+			<correct id="1" />
+			<image></image>
+		</questionItem>
+	</allQuestions>
+</data>

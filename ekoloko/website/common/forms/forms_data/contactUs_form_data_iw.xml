@@ -1,0 +1,111 @@
+﻿<items>
+  <item>
+  	<label>אני צריך עזרה בהפעלת החשבון שלי </label>
+  	<id>1</id>
+  	<allowText>no</allowText>
+  	<formType>free</formType>
+  	<pionnerOnly>false</pionnerOnly>
+  	<minRangerLevel>0</minRangerLevel>
+  	<requireAuthentication>false</requireAuthentication>
+  	<crmPath>general</crmPath>
+  </item>
+  <item>
+    <label>אני לא מבין מה לעשות / יש לי שאלה על אקולוקו</label>
+    <id>2</id>
+    <allowText>no</allowText>
+    <formType>helpIssue</formType>
+	  <pionnerOnly>false</pionnerOnly>
+	  <minRangerLevel>0</minRangerLevel>
+	  <requireAuthentication>false</requireAuthentication>
+	  <crmPath>general</crmPath>
+  </item>
+  <item>
+    <label>יש לי שאלה בנוגע לסיירת אקולוקו</label>
+    <id>14</id>
+    <allowText>no</allowText>
+	  <pionnerOnly>false</pionnerOnly>
+	  <minRangerLevel>0</minRangerLevel>
+	  <requireAuthentication>false</requireAuthentication>
+	  <crmPath>general</crmPath>
+  </item>
+  <item>
+    <label>יש לי שאלה לגבי האקו-אפ, האפליקציה הסלולרית של אקולוקו</label>
+    <id>11</id>
+    <allowText>no</allowText>
+    <formType>free</formType>
+	  <pionnerOnly>false</pionnerOnly>
+	  <minRangerLevel>0</minRangerLevel>
+	  <requireAuthentication>false</requireAuthentication>
+	  <crmPath>general</crmPath>
+  </item>
+    <item>
+    <label>יש לי בעיה בנושא תשלום</label>
+    <id>4</id>
+    <allowText>yes</allowText>
+    <formType>paymentIssue</formType>
+	  <pionnerOnly>false</pionnerOnly>
+	  <minRangerLevel>0</minRangerLevel>
+	  <requireAuthentication>false</requireAuthentication>
+	  <crmPath>general</crmPath>
+  </item>
+  <item>
+    <label>אני רוצה לברר מדוע השחקן שלי מורחק </label>
+    <id>12</id>
+    <allowText>no</allowText>
+    <formType>free</formType>
+	  <pionnerOnly>false</pionnerOnly>
+	  <minRangerLevel>0</minRangerLevel>
+	  <requireAuthentication>true</requireAuthentication>
+	  <crmPath>general</crmPath>
+  </item>
+  <item>
+    <label>אני רוצה לברר מדוע חלונית הצ'אט שלי נעלמה</label>
+    <id>13</id>
+    <allowText>no</allowText>
+    <formType>free</formType>
+    <pionnerOnly>false</pionnerOnly>
+	  <minRangerLevel>0</minRangerLevel>
+	  <requireAuthentication>true</requireAuthentication>
+	  <crmPath>general</crmPath>
+  </item>  
+  <item>
+    <label>(פניות הורים בנושא הטרדה או פגיעה בפרטיות  (רק פניות הורים ייענו</label>
+    <id>5</id>
+    <allowText>yes</allowText>
+    <formType>free</formType>
+	  <pionnerOnly>true</pionnerOnly>
+	  <minRangerLevel>0</minRangerLevel>
+	  <requireAuthentication>false</requireAuthentication>
+	  <crmPath>general</crmPath>
+  </item>
+  <item>
+    <label>יש לי תקלה/באג</label>
+    <id>3</id>
+    <allowText>no</allowText>
+    <formType>playerIssue</formType>
+	  <pionnerOnly>false</pionnerOnly>
+	  <minRangerLevel>0</minRangerLevel>
+	  <requireAuthentication>false</requireAuthentication>
+	  <crmPath>general</crmPath>
+  </item> 
+  <item>
+    <label>אני רוצה לאפס את סיסמת פורום הסיירים</label>
+    <id>10</id>
+    <allowText>no</allowText>
+    <formType>free</formType>
+	  <pionnerOnly>false</pionnerOnly>
+	  <minRangerLevel>3</minRangerLevel>
+	  <requireAuthentication>true</requireAuthentication>
+	  <crmPath>general</crmPath>
+  </item>     
+  <item>
+    <label>פניות בנושא הגרלת הקיץ 2014</label>
+    <id>15</id>
+    <allowText>no</allowText>
+    <formType>free</formType>
+	  <pionnerOnly>false</pionnerOnly>
+	  <minRangerLevel>0</minRangerLevel>
+	  <requireAuthentication>false</requireAuthentication>
+	  <crmPath>general</crmPath>
+  </item> 
+</items>

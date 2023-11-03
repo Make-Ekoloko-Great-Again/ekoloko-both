@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<flow avatar="girl1">
+		<command name="add2stage" x="-100" y="390" />
+		<command name="wait" seconds="1" />
+		<command name="mimic" face="normal" />
+		<command name="walk" seconds="4" x="430" y="400"  />
+		<command name="wait" seconds="32" />
+		<command name="walk" seconds="4" x="1050" y="390"  />
+	</flow>
+	<flow avatar="boy1">
+		<command name="add2stage" x="-150" y="430" />
+		<command name="wait" seconds="1" />
+		<command name="mimic" face="angry" />
+		<command name="walk" seconds="4" x="370" y="430"  />
+		<command name="wait" seconds="6" />
+		<command name="talk" seconds="4" msg="חזרתי מיום מעייף בחווה" />
+		<command name="wait" seconds="8" />
+		<command name="mimic" face="normal" />
+		<command name="talk" seconds="4" msg="לכל אחד יש חווה על הירח שלו" />
+		<command name="wait" seconds="4" />
+		<command name="talk" seconds="4" msg="גידלתי וקצרתי וגם קיבלתי פרסים" />
+		<command name="wait" seconds="8" />
+		<command name="talk" seconds="3" msg="טוס לירח שלך וצא לחווה" />
+		<command name="wait" seconds="3" />
+		<command name="talk" seconds="2" msg="עכשיו כולם יכולים" />
+		<command name="wait" seconds="6" />
+		<command name="walk" seconds="2" x="480" y="480"  endScale="1.1" />
+		<command name="face" dir="S" />
+		<command name="talk" seconds="4" msg="החווה החקלאית של אקולוקו" />
+		<command name="wait" seconds="4" />
+		<command name="talk" seconds="4" msg="ההרפתקה ממשיכה" />
+		<command name="wait" seconds="4" />
+		<command name="walk" seconds="4" x="1020" y="400"  endScale="1" />
+	</flow>
+	<flow avatar="girl2_clean">
+		<command name="add2stage" x="1000" y="380" />
+		<command name="wait" seconds="1" />
+		<command name="mimic" face="normal" />
+		<command name="walk" seconds="4" x="520" y="400"  />
+		<command name="wait" seconds="32" />
+		<command name="walk" seconds="4" x="1020" y="400"  />
+	</flow>
+	<flow avatar="boy3_clean">
+		<command name="add2stage" x="1050" y="410" />
+		<command name="wait" seconds="1" />
+		<command name="mimic" face="normal" />
+		<command name="walk" seconds="4" x="550" y="440"  />
+		<command name="wait" seconds="2" />
+		<command name="talk" seconds="4" msg="למה אתה ?מזיע" />
+		<command name="wait" seconds="8" />
+		<command name="mimic" face="shock" />
+		<command name="talk" seconds="4" msg="?מה ?איפה ?חווה חקלאית" />
+		<command name="wait" seconds="12" />
+		<command name="mimic" face="laugh" />
+		<command name="talk" seconds="4" msg="מדהים! גם אני רוצה חווה" />
+		<command name="wait" seconds="10" />
+		<command name="mimic" face="normal" />
+		<command name="walk" seconds="4" x="1050" y="440"  />
+	</flow>
+	
+</data>

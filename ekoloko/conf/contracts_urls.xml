@@ -1,0 +1,56 @@
+<urls>
+  <year url="https://www.plimus.com/jsp/buynow.jsp?contractId=2816760&custom1="/>
+  <month url="https://www.plimus.com/jsp/buynow.jsp?contractId=2923928&custom1="/>
+  <halfYear url="https://www.plimus.com/jsp/buynow.jsp?contractId=2816774&custom1="/>
+  <weekly url="https://www.plimus.com/jsp/buynow.jsp?contractId=2816772&custom1="/>
+  <!-- subscription products -->
+  <contract id="2" url="https://www.plimus.com/jsp/buynow.jsp?contractId=2816774&custom1=" />
+  <contract id="3" url="https://www.plimus.com/jsp/buynow.jsp?contractId=2816760&custom1=" />
+  <contract id="4" url="https://www.plimus.com/jsp/buynow.jsp?contractId=2923928&custom1=" />
+  <contract id="7" url="https://www.plimus.com/jsp/buynow.jsp?contractId=2816772&custom1=" />
+  <contract id="6" url="https://www.plimus.com/jsp/buynow.jsp?contractId=2314729&custom1=" />
+  
+  <contract id="22" url="https://www.plimus.com/jsp/buynow.jsp?contractId=2322615&custom1=" />
+  <contract id="32" url="https://www.plimus.com/jsp/buynow.jsp?contractId=2322617&custom1=" />
+  <contract id="23" url="https://www.plimus.com/jsp/buynow.jsp?contractId=2322611&custom1=" />
+  <contract id="33" url="https://www.plimus.com/jsp/buynow.jsp?contractId=2322613&custom1=" />
+  <contract id="24" url="https://www.plimus.com/jsp/buynow.jsp?contractId=2322609&custom1=" />
+  <contract id="57" url="https://www.plimus.com/jsp/buynow.jsp?contractId=3133574&custom1=" />
+  <contract id="58" url="https://www.plimus.com/jsp/buynow.jsp?contractId=3133576&custom1=" />
+  <contract id="332" url="https://www.plimus.com/jsp/buynow.jsp?contractId=2816774&custom1=" />
+  <contract id="333" url="https://www.plimus.com/jsp/buynow.jsp?contractId=2816760&custom1=" />
+  <contract id="334" url="https://www.plimus.com/jsp/buynow.jsp?contractId=2923928&custom1=" />
+  <contract id="62" url="https://www.plimus.com/jsp/buynow.jsp?contractId=3160696&custom1=" />
+  <contract id="35" url="https://www.plimus.com/jsp/buynow.jsp?contractId=3160722&custom1=" /> 
+  <contract id="36" url="https://www.plimus.com/jsp/buynow.jsp?contractId=3160724&custom1=" />
+  
+  <contract id="30005" url="https://www.plimus.com/jsp/buynow.jsp?contractId=2314739&custom1=" />
+  <contract id="30006" url="https://www.plimus.com/jsp/buynow.jsp?contractId=2314737&custom1=" />
+  <contract id="30008" url="https://www.plimus.com/jsp/buynow.jsp?contractId=2320047&custom1=" />
+  
+  <contract id="13" url="https://ekoloko.plimus.com/jsp/buynow.jsp?contractId=2626594&currency=EUR&language=FRENCH&custom1="/>
+  <contract id="14" url="https://ekoloko.plimus.com/jsp/buynow.jsp?contractId=2626386&currency=EUR&language=FRENCH&custom1="/>
+  <contract id="12" url="https://ekoloko.plimus.com/jsp/buynow.jsp?contractId=2626592&currency=EUR&language=FRENCH&custom1="/>
+  <contract id="17" url="https://ekoloko.plimus.com/jsp/buynow.jsp?contractId=2806346&currency=EUR&language=FRENCH&custom1="/>
+
+
+  <contract id="111" url="https://ekoloko.plimus.com/jsp/buynow.jsp?contractId=2303853&currency=US&language=EN&custom1="/>
+  <contract id="112" url="https://ekoloko.plimus.com/jsp/buynow.jsp?contractId=2303857&currency=US&language=EN&custom1="/>
+  <contract id="113" url="https://ekoloko.plimus.com/jsp/buynow.jsp?contractId=2303861&currency=US&language=EN&custom1="/>
+  <contract id="114" url="https://ekoloko.plimus.com/jsp/buynow.jsp?contractId=2307463&currency=US&language=EN&custom1="/>
+
+  <contract id="30011" url="https://ekoloko.plimus.com/jsp/buynow.jsp?contractId=2304185&currency=US&language=EN&custom1="/>
+  <contract id="30012" url="https://ekoloko.plimus.com/jsp/buynow.jsp?contractId=2304187&currency=US&language=EN&custom1="/>
+  <contract id="30013" url="https://ekoloko.plimus.com/jsp/buynow.jsp?contractId=2307779&currency=US&language=EN&custom1="/>
+
+  <contract id="37" url="https://www.plimus.com/jsp/buynow.jsp?contractId=2627280&custom1=" />
+  
+  <!-- merchendise products -->
+  <contract id="Tshirt" url="https://www.plimus.com/jsp/buynow.jsp?contractId=2396650&custom1="/>
+  <contract id="Hat" url="https://www.plimus.com/jsp/buynow.jsp?contractId=2590074&custom1="/>
+  <contract id="funPack" url="https://www.plimus.com/jsp/buynow.jsp?contractId=2276912&custom1="/>
+  <contract id="Book" url="https://www.plimus.com/jsp/buynow.jsp?contractId=3029172&custom1="/>  
+  <contract id="lupaShirt" url="LupaShirt.html?username="/>   
+  <!-- accessories products -->
+  
+</urls>

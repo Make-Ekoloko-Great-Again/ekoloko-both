@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>ekoloko.com</title>
+<style type="text/css">
+<!--
+body {
+	background-color: #66CC66;
+}
+-->
+</style>
+
+<script language="javascript">
+
+function RSto() {window.resizeTo(500,400)}
+
+function getParameter ( parameterName ) {
+  var queryString = window.top.location.search
+  // Add "=" to the parameter name (i.e. parameterName=value)
+  var parameterName = parameterName + "=";
+  if ( queryString.length > 0 ) {
+    // Find the beginning of the string
+    begin = queryString.indexOf ( parameterName );
+    // If the parameter name is not found, skip it, otherwise return the value
+    if ( begin != -1 ) {
+      // Add the length (integer) to the beginning
+      begin += parameterName.length;
+      // Multiple parameters are separated by the "&" sign
+      end = queryString.indexOf ( "&" , begin );
+      if ( end == -1 ) {
+        end = queryString.length
+      }
+    // Return the string
+    return unescape ( queryString.substring ( begin, end ) );
+    }
+    // Return "null" if no parameter has been found
+    return "null";
+  }
+}
+//var swfUrl = 'mainStore?username='+getParameter('username')+"&language="+getParameter('language');
+var lang = getParameter('language');
+</script>
+</head>
+
+<body onload="RSto()">
+
+<div align="right" id="heb" style="position:absolute; right:20px" dir="rtl"><strong><img src="qmark.jpg" alt="" width="30" height="28" /><u>ברצוני לקבל עדכונים תקופתיים במייל</u></strong>  <br />
+ <div style="position:relative; right:30px"> אקולוקו שולחת מדי פעם עדכונים וחדשות מהעולם לילדים ולהורים. במידה ואינכם מעוניינים לקבל מידע זה אנא וודאו שהחלונית אינה מסומנת
+ </div>
+  <br />
+  <br />
+  <strong><img src="qmark.jpg" alt="" width="30" height="28" /><u>ברצוני להשתתף בסקרים</u></strong><br />
+   <div style="position:relative; right:30px">
+  הקליקו על הכפתור במידה והינכם מעוניינים להשתתף בסקרים שונים בתמורה לפרסים מגניבים באקולוקו
+  <br />  
+  שימו לב! ההשתתפות בסקרים מחייבת הסכמה כתובה של ההורים
+  </div>
+</div>
+  
+  <div align="left" id="eng"  style="position:absolute; left:20px;"><strong><img src="qmark.jpg" width="30" height="28" /><u>I would like to recive updates in the email</u></strong>  <br />
+   <div style="position:relative; left:30px">
+    Ekoloko sends out to its users and   their parents, periodic newsletter that includes updates and content related to   the virtual world. If you do not want to receive these updates, please uncheck   the mark.<br />
+    </div>
+    <br />
+    <strong><img src="qmark.jpg" alt="" width="30" height="28" /><u>I would like to participate in surveys</u></strong><br />
+     <div style="position:relative; left:30px">
+  Check to approve your participation in surveys. Completing surveys will award you with cool rewards in ekoloko
+  <br />
+  Please note! We will need a written consent from your parents to approve your participation
+  </div>
+  </div>
+<script>
+if (lang == "iw") {
+	image = document.getElementById('eng');
+  	image.style.visibility = 'hidden';
+} else if (lang == "en") {
+	image = document.getElementById('heb');
+  	image.style.visibility = 'hidden';
+}
+  </script>
+</body>
+</html>

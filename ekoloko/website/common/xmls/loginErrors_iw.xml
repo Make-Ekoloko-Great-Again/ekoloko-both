@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<error_details>שם משתמש או סיסמה אינם נכונים</error_details>
+	<error_ban>הינך מושעה מאקולוקו ואינך רשאי להמשיך</error_ban>
+	<error_unknown>שגיאת התקשרות אנא נסו שנית</error_unknown>
+	<error_notactivated>המנוי ממתין להפעלה נשלח מייל לכתובת ההורים</error_notactivated>
+</data>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<plimusTemplateId>688783</plimusTemplateId>
+	<!--<merchendise active="1" image="albumCards.swf"><![CDATA[<b>Book<br/>& Cards</b>]]></merchendise>-->
+	<accessories active="1" image="accessories.swf" image2="albumCards.swf"><![CDATA[<b>Get More<br/>Eko-Coins</b>]]></accessories>
+	<accessoriesSubTitle><![CDATA[<b>Charge your account</b>]]></accessoriesSubTitle>
+	<product id="35,23,57">
+		<title>Yearly</title>
+		<subTitle>12 months membership</subTitle>
+		<itemsTitle><![CDATA[<b>And…<br/>These Rare Items</b>]]></itemsTitle>
+		<productIsActive>1</productIsActive>
+		<enableOnFirstPayment>0</enableOnFirstPayment>
+		<disableIfNotPioneer>0</disableIfNotPioneer>
+		<popularProduct>0</popularProduct>
+		<payByPhone>1</payByPhone>
+		<payByCheque>0</payByCheque>
+		<paymentMethods>
+			<payment type="creditCard" active="1" />
+			<payment type="payPal" active="1" />
+			<payment type="ravCard" active="0" />
+			<payment type="ekoCard" active="0" />
+		</paymentMethods>
+	</product>
+	<product id="36,22,58">
+		<title>6 Months</title>
+		<subTitle>6 months membership</subTitle>
+		<itemsTitle><![CDATA[<b>And…<br/>These Rare Items</b>]]></itemsTitle>
+		<productIsActive>1</productIsActive>
+		<enableOnFirstPayment>0</enableOnFirstPayment>
+		<disableIfNotPioneer>0</disableIfNotPioneer>
+		<popularProduct>1</popularProduct>
+		<payByPhone>1</payByPhone>
+		<payByCheque>0</payByCheque>
+		<paymentMethods>
+			<payment type="creditCard" active="1" />
+			<payment type="payPal" active="1" />
+			<payment type="ravCard" active="0" />
+			<payment type="ekoCard" active="0" />
+		</paymentMethods>
+	</product>
+	<product id="62">
+		<title>3 Months</title>
+		<subTitle>Ongoing subscription</subTitle>
+		<itemsTitle><![CDATA[<b>And…<br/>These Rare Items</b>]]></itemsTitle>
+		<productIsActive>1</productIsActive>
+		<enableOnFirstPayment>0</enableOnFirstPayment>
+		<disableIfNotPioneer>0</disableIfNotPioneer>
+		<popularProduct>0</popularProduct>
+		<payByPhone>1</payByPhone>
+		<payByCheque>0</payByCheque>
+		<paymentMethods>
+			<payment type="creditCard" active="1" />
+			<payment type="payPal" active="1" />
+			<payment type="ravCard" active="0" />
+			<payment type="ekoCard" active="0" />
+		</paymentMethods>
+	</product>
+	<product id="6">
+		<title>1 month</title>
+		<subTitle>Ongoing subscription</subTitle>
+		<itemsTitle><![CDATA[<b>And…<br/>These Rare Items</b>]]></itemsTitle>
+		<productIsActive>1</productIsActive>
+		<enableOnFirstPayment>0</enableOnFirstPayment>
+		<disableIfNotPioneer>0</disableIfNotPioneer>
+		<popularProduct>0</popularProduct>
+		<payByPhone>0</payByPhone>
+		<payByCheque>0</payByCheque>
+		<paymentMethods>
+			<payment type="creditCard" active="1" />
+			<payment type="payPal" active="1" />
+		</paymentMethods>
+	</product>
+</data>

@@ -1,0 +1,121 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="KeyWords" content=" Virtual,m2,tweens, world, virtual world, green, games, game, flash, recycling, rrr ,RRR, community, mmo ,mmo games, ekoloko, educational, fun, adventures, quests, safe, under 13, young, tweens, avatar, toys, values, עולם וירטואלי, עולם, וירטואלי, ירוק, ילדים, משחקים, משחקים לילדים, אווטאר, נדירים, פלאש, מחזור, מיחזור, איכותי,צעצועים,חינוכי,כיף,הרפתקה,משימות,קווסטים,חברים,בטוח לילדים,עד גיל 13,מתחת גיל 13,צעירים,קטנים,צעצועים,קהילה אקולוקו, משחק ">
+<title>ekoloko.com</title>
+<script language="javascript">AC_FL_RunContent = 0;</script>
+<script src="AC_RunActiveContent.js" language="javascript"></script>
+<SCRIPT LANUAGE="JavaScript 1.2">
+
+function getParameter ( parameterName ) {
+  var queryString = window.top.location.search
+  // Add "=" to the parameter name (i.e. parameterName=value)
+  var parameterName = parameterName + "=";
+  if ( queryString.length > 0 ) {
+    // Find the beginning of the string
+    begin = queryString.indexOf ( parameterName );
+    // If the parameter name is not found, skip it, otherwise return the value
+    if ( begin != -1 ) {
+      // Add the length (integer) to the beginning
+      begin += parameterName.length;
+      // Multiple parameters are separated by the "&" sign
+      end = queryString.indexOf ( "&" , begin );
+      if ( end == -1 ) {
+        end = queryString.length
+      }
+    // Return the string
+    return unescape ( queryString.substring ( begin, end ) );
+    }
+    // Return "null" if no parameter has been found
+    return "null";
+  }
+}
+
+function postTZ() {
+  var params = [];
+  params["sum"] = 39;
+  params["currency"] = 1;
+  params["pdesc"] = " כתר נרות צבעוני ל"+ getParameter("username")+" למסיבת חנוכה "
+  params["username"] = getParameter("username");
+  params["productId"] = 117;
+  
+  var form = document.createElement("form");
+  form.setAttribute("method", "post");
+  form.setAttribute("target", "_top");
+  form.setAttribute("action", "https://direct.tranzila.com/ekoloko1/");
+
+  for(var key in params) {
+      if(params.hasOwnProperty(key)) {
+          var hiddenField = document.createElement("input");
+          hiddenField.setAttribute("type", "hidden");
+          hiddenField.setAttribute("name", key);
+          hiddenField.setAttribute("value", params[key]);
+          form.appendChild(hiddenField);
+       }
+  }
+  document.body.appendChild(form);
+  form.submit();
+}
+
+var swfUrl = 'teva1Form';
+</script>
+<style type="text/css">
+<!--
+body {
+	background-color: #a0cd34;
+}
+-->
+</style></head>
+<body topmargin="0" marginwidth="0" >
+<table width="1200" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+  <td width="90" background="images/left.jpg">  </td>
+    <td>
+      <script language="javascript">
+    	if (AC_FL_RunContent == 0) {
+    		alert("This page requires AC_RunActiveContent.js.");
+    	} else {
+    		AC_FL_RunContent(
+    			'codebase', 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,124,0',
+    			'width', '960',
+    			'height', '600',
+    			'src', swfUrl,
+    			'quality', 'high',
+    			'pluginspage', 'http://www.macromedia.com/go/getflashplayer',
+    			'align', 'middle',
+    			'play', 'true',
+    			'loop', 'true',
+    			'scale', 'showall',
+    			'wmode', 'gpu',
+    			'devicefont', 'false',
+    			'id', 'linkme',
+    			'bgcolor', '#FFFFFF',
+    			'name', 'Landing',
+    			'menu', 'true',
+    			'allowFullScreen', 'true',
+    			'allowScriptAccess','sameDomain',
+    			'movie', swfUrl,
+    			'salign', ''
+    			); //end AC code
+    	}
+      </script>
+    </td>
+    <td width="150" background="images/right.jpg">    </td>
+  </tr>
+</table>
+
+
+
+<script>
+  var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");  
+  document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E")); 
+
+  try{ 
+    	var pageTracker = _gat._getTracker("UA-4992646-7");
+    	pageTracker._setDomainName(".ekoloko.ml");
+    	pageTracker._trackPageview();
+    	_vtq = _gat._createTracker('UA-4992646-7', "__vtq");
+  } catch(err) {}
+</script>
+</body>
+</html>

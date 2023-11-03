@@ -1,0 +1,39 @@
+﻿<html>
+<head>
+<title>ekoloko.com</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<script language="javascript" type="text/javascript">
+function getParameter ( parameterName ) {
+  var queryString = window.location.search
+  var parameterName = parameterName + "=";
+  if ( queryString.length > 0 ) {
+    begin = queryString.indexOf ( parameterName );
+    if ( begin != -1 ) {
+      begin += parameterName.length;
+      end = queryString.indexOf ( "&" , begin );
+      if ( end == -1 ) {
+        end = queryString.length
+      }
+    return unescape ( queryString.substring ( begin, end ) );
+    }
+    return "null";
+  }
+}
+
+function addUrlParam(pName, url) {
+  var pValue = getParameter(pName);
+  if(!( pValue == undefined || pValue == "undefined" || pValue == null || pValue == "null") ) {
+    url += (url.indexOf('?')<0?"?":"&")+pName+'='+pValue;
+  }
+  return url;
+}
+function change() {
+	var url = "../../website/"+getParameter('language')+"/Info_Rangers.html";
+	url = addUrlParam("hideNavigation", url); 
+	window.location = url;
+}
+</script>
+</head>
+<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onLoad="change()">
+</body>
+</html>

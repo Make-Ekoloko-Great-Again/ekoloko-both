@@ -1,0 +1,62 @@
+﻿<items>
+  <item>
+      <label>bad_user_details</label>
+      <value>שם משתמש או סיסמא שגויים</value>
+  </item>
+  <item>
+      <label>incorrect_authentication</label>
+      <value>קוד אישור שגוי</value>
+  </item>
+  <item>
+      <label>message_sent</label>
+      <value>הודעתך נשלחה לצוות אקולוקו</value>
+  </item> 
+  <item>
+      <label>server_error</label>
+      <value>שגיאת תקשורת אנא נסו שוב מאוחר יותר</value>
+  </item>   
+  <item>
+      <label>no_user</label>
+      <value>שם משתמש שגוי</value>
+  </item>
+   <item>
+      <label>select_subject_main</label>
+      <value>יש לבחור נושא - פניות שישלחו בנושא שאינו מתאים לא יענו</value>
+  </item> 
+  <item>
+      <label>select_subject</label>
+      <value>יש לבחור נושא</value>
+  </item> 
+  <item>
+	  <label>fill_must_fields</label>
+	  <value> *יש למלא את כל השדות המסומנים ב</value>
+  </item>
+  <item>
+	  <label>bad_email</label>
+	  <value>יש למלא כתובת אי-מייל תקנית</value>
+  </item>
+  <item>
+	  <label>short_phone</label>
+	  <value>מספר הטלפון קצר מידי</value>
+  </item>
+  <item>
+	  <label>short_sms_phone</label>
+	  <value>מספר הטלפון שהושאר לקבלת מסרון קצר מידי</value>
+  </item>
+  <item>
+	  <label>no_valid_birth_date</label>
+	  <value>נא למלא תאריך לידה תקני</value>
+  </item>
+  <item>
+	  <label>fill_title</label>
+	  <value>חובה למלא כותרת לסיפור</value>
+  </item>
+   <item>
+	  <label>under_200_words</label>
+	  <value>הסיפור שכתבתם הינו פחות מ-200 מילים</value>
+  </item>
+  <item>
+	  <label>over_400_words</label>
+	  <value>הסיפור שכתבתם הינו מעבר ל-400 מילים</value>
+  </item>
+</items>

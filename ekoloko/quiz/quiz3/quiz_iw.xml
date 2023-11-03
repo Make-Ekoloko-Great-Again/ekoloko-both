@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<questionList>
+		<question value="#"/>
+		<question value="#"/>
+		<question value="#"/>
+		<question value="#"/>
+		<question value="#"/>
+		<question value="#"/>
+		<question value="#"/>
+		<question value="#"/>
+		<question value="#"/>
+		<question value="#"/>
+	</questionList>
+	<questionTime>70</questionTime>
+	<showCorrect>true</showCorrect>
+	<allQuestions>
+		<questionItem id="1">
+			<question>איזה סוג של חיה  היא דולפין</question>
+			<answer id="1">יונק</answer>
+			<answer id="2">דג</answer>
+			<answer id="3">דו חיים</answer>
+			<answer id="4">זוחל</answer>
+			<correct id="1" />
+			<image></image>
+		</questionItem>
+		<questionItem id="2">
+			<question>איזה דם יש לנחש</question>
+			<answer id="1">דם חם</answer>
+			<answer id="2">דם קר</answer>
+			<answer id="3">דם פושר</answer>
+			<answer id="4">דם כחול</answer>
+			<correct id="2" />
+			<image></image>
+		</questionItem>
+		<questionItem id="3">
+			<question>האם יש יונקים שמטילים ביצים</question>
+			<answer id="1">לא</answer>
+			<answer id="2">כן, אבל מעט מאד</answer>
+			<answer id="3">מה פתאום</answer>
+			<answer id="4">אף תשובה אינה נכונה</answer>
+			<correct id="2" />
+			<image></image>
+		</questionItem>
+		<questionItem id="4">
+			<question>איזה סוג של חיה היא צפרדע</question>
+			<answer id="1">יונק</answer>
+			<answer id="2">זוחל</answer>
+			<answer id="3">דו חיים</answer>
+			<answer id="4">עוף</answer>
+			<correct id="3" />
+			<image></image>
+		</questionItem>
+		<questionItem id="5">
+			<question>לאיזו  חיה יש את הראייה הטובה ביותר</question>
+			<answer id="1">חפרפרת</answer>
+			<answer id="2">בונה</answer>
+			<answer id="3">עיט</answer>
+			<answer id="4">ג'וק</answer>			
+			<correct id="3" />
+			<image></image>
+		</questionItem>		
+		<questionItem id="6">
+			<question>מה אוכלים נשרים</question>
+			<answer id="1">גרעיני חמנייה</answer>
+			<answer id="2">הם צדים חיות קטנות</answer>
+			<answer id="3">נבלות</answer>
+			<answer id="4">תמרים ואננסים</answer>
+			<correct id="3" />
+			<image></image>
+		</questionItem>		
+		<questionItem id="7">
+			<question>איזו חיה יבשתית היא החיה הגדולה ביותר</question>
+			<answer id="1">קרנף</answer>
+			<answer id="2">פיל אפריקאי</answer>
+			<answer id="3">פיל הודי</answer>
+			<answer id="4">יען</answer>
+			<correct id="2" />
+			<image></image>
+		</questionItem>
+		<questionItem id="8">
+			<question>איזו חיה ימית היא החיה הגדולה ביותר</question>
+			<answer id="1">כריש לווייתן</answer>
+			<answer id="2">לווייתן כחול</answer>
+			<answer id="3">דיונון ענק</answer>
+			<answer id="4">דג טונה</answer>
+			<correct id="2" />
+			<image></image>
+		</questionItem>
+		<questionItem id="9">
+			<question>איזה עוף מהעופות הבאים יודע לעוף</question>
+			<answer id="1">יען</answer>
+			<answer id="2">תרנגול</answer>
+			<answer id="3">חסידה</answer>
+			<answer id="4">פינגווין</answer>
+			<correct id="3" />
+			<image></image>
+		</questionItem>
+		<questionItem id="10">
+			<question>מי מבעלי החיים הבאים הוא זוחל</question>
+			<answer id="1">עכבר</answer>
+			<answer id="2">גמל שלמה</answer>
+			<answer id="3">סרטן הנחלים</answer>
+			<answer id="4">איגואנה</answer>
+			<correct id="4" />
+			<image></image>
+		</questionItem>
+		<questionItem id="11">
+			<question>מי מבעלי החיים הבאים הוא חרק</question>
+			<answer id="1">גוואקאמיו התוכי</answer>
+			<answer id="2">פרפר זנב הסנונית</answer>
+			<answer id="3">נחליאלי</answer>
+			<answer id="4">כלב צ'יוואוה </answer>			
+			<correct id="2" />
+			<image></image>
+		</questionItem>		
+		<questionItem id="12">
+			<question>מי מבעלי החיים  הבאים הוא  עוף</question>
+			<answer id="1">יען</answer>
+			<answer id="2">פרפר</answer>
+			<answer id="3">סנאי</answer>
+			<answer id="4">עופר</answer>
+			<correct id="1" />
+			<image></image>
+		</questionItem>		
+		<questionItem id="13">
+			<question>מי מבעלי החיים הבאים הוא יונק</question>
+			<answer id="1">סוסון ים</answer>
+			<answer id="2">נחש קוברה</answer>
+			<answer id="3">לוויתן</answer>
+			<answer id="4">תרנגולת</answer>
+			<correct id="3" />
+			<image></image>
+		</questionItem>
+		<questionItem id="14">
+			<question>מי מהיונקים הבאים  נמצא בסכנת הכחדה</question>
+			<answer id="1">כלב</answer>
+			<answer id="2">כלב ים</answer>
+			<answer id="3">דוב פנדה</answer>
+			<answer id="4">דוב גריזלי</answer>
+			<correct id="3" />
+			<image></image>
+		</questionItem>
+		<questionItem id="15">
+			<question>מי מהזוחלים הבאים  נמצא בסכנת הכחדה</question>
+			<answer id="1">נחש קוברה</answer>
+			<answer id="2">צב ענק</answer>
+			<answer id="3">שממית</answer>
+			<answer id="4">חרדון</answer>
+			<correct id="2" />
+			<image></image>
+		</questionItem>
+	</allQuestions>
+</data>

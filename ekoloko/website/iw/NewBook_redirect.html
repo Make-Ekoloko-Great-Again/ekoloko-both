@@ -1,0 +1,50 @@
+<html>
+<head>
+<title>ekoloko..cf</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<script language="javascript" type="text/javascript">
+function getParameter ( parameterName ) {
+  var queryString = window.location.search
+  var parameterName = parameterName + "=";
+  if ( queryString.length > 0 ) {
+    begin = queryString.indexOf ( parameterName );
+    if ( begin != -1 ) {
+      begin += parameterName.length;
+      end = queryString.indexOf ( "&" , begin );
+      if ( end == -1 ) {
+        end = queryString.length
+      }
+    return unescape ( queryString.substring ( begin, end ) );
+    }
+    return "null";
+  }
+}
+
+function addUrlParam(pName, url) {
+  var pValue = getParameter(pName);
+  if(!( pValue == undefined || pValue == "undefined" || pValue == null || pValue == "null") ) {
+    url += (url.indexOf('?')<0?"?":"&")+pName+'='+pValue;
+  }
+  return url;
+}
+function change() {
+	var url = 'https://www.plimus..cf/jsp/buynow.jsp?contractId=3146258&templateId=688783&custom1='+getParameter('username');
+	window.location = url;
+}
+</script>
+</head>
+<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0"  onLoad="change()">
+</body>
+<script type="text/javascript"> 
+  var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");  
+  document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics..cf/ga.js' type='text/javascript'%3E%3C/script%3E")); 
+</script> 
+
+<script type="text/javascript"> 
+  try{ 
+    	var pageTracker = _gat._getTracker("UA-4992646-7");
+    	pageTracker._setDomainName(".ekoloko.ml");
+    	pageTracker._trackPageview();
+  } catch(err) {}
+</script>
+</html>

@@ -1,0 +1,265 @@
+<html>
+<head>
+<title>ekoloko.com</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="KeyWords" content=" Virtual,m2,tweens, world, virtual world, green, games, game, flash, recycling, rrr ,RRR, community, mmo ,mmo games, ekoloko, educational, fun, adventures, quests, safe, under 13, young, tweens, avatar, toys, values, עולם וירטואלי, עולם, וירטואלי, ירוק, ילדים, משחקים, משחקים לילדים, אווטאר, נדירים, פלאש, מחזור, מיחזור, איכותי,צעצועים,חינוכי,כיף,הרפתקה,משימות,קווסטים,חברים,בטוח לילדים,עד גיל 13,מתחת גיל 13,צעירים,קטנים,צעצועים,קהילה אקולוקו, משחק ">
+<script language="javascript" type="text/javascript">
+function getParameter ( parameterName ) {
+  var queryString = window.top.location.search
+  // Add "=" to the parameter name (i.e. parameterName=value)
+  var parameterName = parameterName + "=";
+  if ( queryString.length > 0 ) {
+    // Find the beginning of the string
+    begin = queryString.indexOf ( parameterName );
+    // If the parameter name is not found, skip it, otherwise return the value
+    if ( begin != -1 ) {
+      // Add the length (integer) to the beginning
+      begin += parameterName.length;
+      // Multiple parameters are separated by the "&" sign
+      end = queryString.indexOf ( "&" , begin );
+      if ( end == -1 ) {
+        end = queryString.length
+      }
+    // Return the string
+    return unescape ( queryString.substring ( begin, end ) );
+    }
+    // Return "null" if no parameter has been found
+    return "null";
+  }
+}
+var menuSwf = "subPage_menu?page=0&language=iw"//+getParameter('language');
+//var sideMenuSwf = "sideMenu_help?page=2&language=iw"//+getParameter('language');
+
+function popUp(URL) {
+	window.open(URL, 'ekoloko', 'toolbar=0,scrollbars=1,location=0,statusbar=0,menubar=0,resizable=0,width=960,height=800')
+}
+function displayGenerationTable() {
+	var div = document.getElementById('generationTable');
+	div.style.visibility = 'visible';
+	div.style.height = '620px';
+	div.style.display = "inline";
+}
+</script>
+
+<script src="AC_RunActiveContent.js" type="text/javascript"></script>
+<link href="ekoloko.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+<!--
+#generationTable {
+ visibility:hidden;
+ height:0px;
+ display:none;
+}
+-->
+</style>
+</head>
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<a name="top"></a>
+<table width="1200" height="601" border="0" align="center" cellpadding="0" cellspacing="0" id="Table_01">
+<tr>
+		<td>
+	<img src="../common/images/header_left.jpg" width="93" height="154" alt=""></td>
+        <td colspan="3">
+        <script language="javascript">
+    	if (AC_FL_RunContent == 0) {
+    		alert("This page requires AC_RunActiveContent.js.");
+    	} else {
+    		AC_FL_RunContent(
+    			'codebase', 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,124,0',
+    			'width', '960',
+    			'height', '154',
+    			'src', menuSwf,
+    			'quality', 'high',
+    			'pluginspage', 'http://www.macromedia.com/go/getflashplayer',
+    			'align', 'middle',
+    			'play', 'true',
+    			'loop', 'true',
+    			'scale', 'showall',
+    			'wmode', 'gpu',
+    			'devicefont', 'false',
+    			'id', 'Menu',
+    			'bgcolor', '#abd93f',
+    			'name', 'Menu',
+    			'menu', 'true',
+    			'allowFullScreen', 'true',
+    			'allowScriptAccess','sameDomain',
+    			'movie', menuSwf,
+    			'salign', ''
+    			); //end AC code
+    	}
+      </script>
+    </td>
+	<td>
+	<img src="../common/images/header_right.jpg" width="147" height="154" alt=""></td>
+  </tr>
+	<tr>
+	  <td colspan="2" valign="top" style="background-repeat:no-repeat">
+	  <img src="../common/images/back_left.jpg" alt="" width="143" height="447"></td>
+  <td valign="top" background="../common/images/tileable_iw.jpg">
+  <div style="background-image:url(../common/images/main_iw.jpg); background-repeat:no-repeat; height:auto;">
+            <table width="810" border="0" cellspacing="0" cellpadding="0" style="margin-left:50px;">
+              <tr>
+                <td align="right" valign="top" dir="rtl">
+				<p>
+                <img src="../common/images/rangers_info_main_title_iw.jpg">
+                  <br>
+                  <br>
+				<span class="FAQTitle">
+                מי מאתנו לא ראה סיירים מסתובבים באקולוקו עם הילה מעל הראש, עוזרים למנהלים, עושים הפעלות ועוזרים לילדים חדשים? רוצים לדעת איך הם הגיעו לזה?<br>
+ הגעתם למקום הנכון! הסיירים לא מקבלים את ההילה שלהם סתם.<br>
+ כדי להתקבל לסיירת צריך להשקיע. 
+</span><br>
+<br>
+<span class=" BodyText">
+אבל בואו נתחיל מההתחלה... <strong>מהם כל הסוגים של הסיירים?</strong><br>
+<br>
+</span>
+<ul class="BodyText">
+	<li>סיירים ירוקים. ניתן לזהותם באמצעות ההילה הירוקה מעל הראש.</li>
+    <li>סיירים מוסמכים (נקראים גם סיירי 1). ניתן לזהותם באמצעות ההילה הזהובה.</li>
+    <li>סיירים בכירים (נקראים גם סיירי 2). ניתן לזהות אותם באמצעות ההילה הכתומה, אך גם באמצעות הצבע המיוחד של הדיבור שלהם – טקסט אדום על רקע צהוב.</li>
+</ul>
+<br>
+<span class=" BodyText">
+ועכשיו כשהבנו מיהם הסיירים, <strong>מה בכלל הם עושים?</strong> <br>
+לסיירים שלושה תפקידים עיקריים:<br>
+</span>
+<ul class="BodyText">
+	<li>לעזור לאקואים (מתחילים, אבל גם ותיקים) בשאלות ובעיות</li>
+    <li>לעזור לשמור על כללי ההתנהגות (הסיירים הבכירים אפילו יכולים לנטרל צ'אט לאקו שמפר את כללי ההתנהגות).</li>
+    <li>לערוך הפעלות ומשחקים.</li>
+</ul>
+<span class=" BodyText"><br>
+נשמע ממש שיש להם הרבה תפקידים... <strong>הם בכלל מקבלים משהו מאקולוקו?</strong><br>
+בגלל שהתפקיד של הסיירים כל כך חשוב, הם מקבלים מאתנו כמה כלים שיעזרו להם:<br>
+</span>
+<ul class="BodyText">
+	<li>עדכון שבועי על כל מה שהולך לקרות באקולוקו.</li>
+    <li>משתמשים בפורום הסיירת לסיירים המוסמכים והבכירים.</li>
+    <li>מנהלים עורכים מפגשי סיירים עם הסיירים המוסמכים והבכירים.</li>
+    <li>משחק "סיירים מלמדים" (משחק הכיתה) המיוחד לסיירים.</li>
+    <li>אפשרות לשלוח הודעות לחדרים בהם הם נמצאים (גם – לסיירים המוסמכים והבכירים).</li>
+    <li>אקוקוינז לקניות בקניון הנדירים</li>
+    <li>משימות ותכנים מיוחדים לסיירים</li>
+    <li>ויש עוד...</li>
+</ul>
+<span class=" BodyText"><br>
+נשמע מעולה, לא? אתם בטח חושבים עכשיו, "וואו! גם אני רוצה!". אז יאללה!<br>
+בואו נדבר רגע על <strong><u>מה בכלל עליכם לעשות כדי להיות סיירים?</u></strong><br><br>
+<u>כולם מתחילים בסיירת הירוקה</u><br><br>
+חלוצים ברמה 8 ודור 3, שעברו לפחות שבועיים ללא הרחקות מאקולוקו, יוכלו להגיש מועמדות לסיירת הירוקה (באמצעות הקישור שבתפריט סימן השאלה (בצד ימין למעלה במסך באקולוקו)).<br><br>
+כאשר תגיעו לרמה המתאימה, תיפתח לכם משימה מיוחדת אצל הית'קליף, ולאחר שתגישו מועמדות, תיפתח לכם שרשרת של משימות מיוחדות, שאם תשקיעו ותשלימו אותן, תהפכו מיידית לסיירים ירוקים! בהצלחה ומזל טוב!
+<br><br>
+<u>מהסיירת הירוקה – לסיירת המוסמכת</u><br><br>
+אם אתם כבר סיירים ירוקים, למה לא לנסות להתקדם להיות סיירים מוסמכים?<br><br>
+כאשר תעמדו בתנאי הסף (חלוץ, רמה 12, דור 6 ולפחות חודש בלי הרחקות מאקולוקו), תוכלו להגיש מועמדות לסיירת המוסמכת (גם כאן – את המועמדות מגישים דרך סימן השאלה).<br><br>
+התהליך הפעם שונה - אחרי הגשת המועמדות, תקבלו מאיתנו מייל המאשר את הגשת המועמדות, ומספר לכם שאנחנו עומדים לבדוק את התאמתכם לסיירת. הבדיקה תיערך באופן אישי וידני, גם על התקופה שלפני הגשת המועמדות. לכן, לא מספיק רק להגיש את המועמדות, אלא עליכם גם להוכיח שאתם מתאימים להיות סיירים מוסמכים. <strong>סיירים צריכים להכיר את אקולוקו, להיות מעורבים בקהילה, לעזור ולכבד אקואים אחרים</strong> וכדומה... רק אלה שנמצאים מתאימים, מתקבלים לסיירת, ויקבלו זימון למפגש המינוי המיוחד, שבו יקבלו את ההילה ושאר הזכויות.
+<br>
+<br>
+שימו לב – תשובות תישלחנה אליכם תוך שבוע-שבוע וחצי מהמועד שבו נשלח אליכם אישור קבלת הבקשה.<br>
+<br>
+<u>ומה עם הסיירת הבכירה?</u><br>
+<br>
+זו הסיירת ברמה הגבוהה ביותר! היא כוללת סיירים מוסמכים נבחרים, שהוכיחו את עצמם כראויים ומשקיענים, ונבחרו במסגרת בחירות מיוחדות, שמתפרסמות בפורום הסיירת אחת לכמה חודשים.<br>
+<br>
+<strong>אז למה אתם מחכים? רוצו להשקיע, ואולי גם אתם תהיו סיירים בקרוב!</strong><br>
+<br>
+חשוב לזכור:  לא כולם מתקבלים בניסיון הראשון! כולם מקבלים תשובה על המועמדות שלהם, ואם לא התקבלתם, תקבלו גם הסבר על למה לא התקבלתם. אז אל תתייאשו – קראו את המייל מאיתנו, נסו לנהוג בהתאם והגישו מועמדות ברגע שתוכלו (ניתן להגיש מועמדות פעם ב-30 יום).<br>
+<br>
+אם תשקיעו, תקפידו לא לעבור על כללי ההתנהגות ותגישו מועמדות בכל פעם שתוכלו, הסיכויים שלכם רק יעלו!<br>
+<br>
+<strong>אז שיהיה בהצלחה! ו... נתראה בסיירת!</strong>
+</span>
+<br>
+<br>
+				  
+                </td>
+				   <td width="230" valign="top">
+                    <div style="margin-left:10px; height:447;" align="center"><br><br>
+                   
+                    <!--
+                       <script language="javascript">
+							if (AC_FL_RunContent == 0) {
+								alert("This page requires AC_RunActiveContent.js.");
+							} else {
+								AC_FL_RunContent(
+									'codebase', 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,124,0',
+									'width', '180',
+									'height', '360',
+									'src', sideMenuSwf,
+									'quality', 'high',
+									'pluginspage', 'http://www.macromedia.com/go/getflashplayer',
+									'align', 'middle',
+									'play', 'true',
+									'loop', 'true',
+									'scale', 'showall',
+									'wmode', 'transparent',
+									'devicefont', 'false',
+									'id', 'Menu',
+									'bgcolor', '#ffffff',
+									'name', 'Menu',
+									'menu', 'true',
+									'allowFullScreen', 'true',
+									'allowScriptAccess','sameDomain',
+									'movie', sideMenuSwf,
+									'salign', ''
+									); //end AC code
+							}
+						  </script>-->
+                  </div>                </td>
+              </tr>
+            </table>
+      </div> </td>
+	  <td colspan="2" valign="top" style="background-repeat:no-repeat">
+	  <img src="../common/images/back_right.jpg" alt="" width="197" height="447"></td>
+  </tr>
+	<tr>
+    <td colspan="5" align="center">
+      <img src="../common/images/footer_iw.jpg" style="position:relative; left:-28px"> 
+      <br>
+     <span  class="footerText" style="position:relative; left:-26px;"><a href="Parents_About.html" class="footerLinks">אודות החברה</a>  |  <a href="javascript:popUp('Terms.html')" class="footerLinks">תנאי שימוש</a>  |  <a href="javascript:popUp('Privacy.html')" class="footerLinks">פרטיות</a>  |  <a href="Help_Contact.html" class="footerLinks">צור קשר</a>  |   <a href="Site_Map.html" class="footerLinks">מפת האתר</a></span>
+      <br>
+      <span class="footerText">ekoloko.com © 2011 virtual tweens Ltd.</span></td>
+    </tr>
+    <tr>
+		<td>
+			<img src="../common/images/spacer.gif" width="93" height="1" alt=""></td>
+		<td>
+			<img src="../common/images/spacer.gif" width="50" height="1" alt=""></td>
+		<td>
+			<img src="../common/images/spacer.gif" width="860" height="1" alt=""></td>
+		<td>
+			<img src="../common/images/spacer.gif" width="50" height="1" alt=""></td>
+		<td>
+			<img src="../common/images/spacer.gif" width="147" height="1" alt=""></td>
+	</tr>
+</table>
+<table id="adBanners" border="0" cellpadding="0" cellspacing="5" align="center" style="position:relative;">
+  <tr>
+    <td align="center" width="100%">
+      <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+      <!-- 728X90-1 -->
+      <ins class="adsbygoogle"
+           style="display:inline-block;width:728px;height:90px"
+           data-ad-client="ca-pub-5667630990546164"
+           data-ad-slot="3488273138"></ins>
+      <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </td>     
+  </tr>
+</table>
+<script>
+  var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");  
+  document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E")); 
+
+  try{ 
+    	var pageTracker = _gat._getTracker("UA-4992646-7");
+    	pageTracker._setDomainName(".ekoloko.com");
+    	pageTracker._trackPageview();
+    	_vtq = _gat._createTracker('UA-4992646-7', "__vtq");
+  } catch(err) {}
+</script>
+</body>
+
+</html>
